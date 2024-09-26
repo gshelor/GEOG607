@@ -9,6 +9,8 @@ Created on Sun Sep 12 11:23:09 2021
 
 import matplotlib.pyplot as plt
 import pandas as pd
+import os
+print(os.getcwd())
 # This imports the pandas library. This comes along with the Anaconda Distribution,
 # and as we'll see, makes working with data much simpler than using some of the 
 # more basic ways to open files than those we just worked with. 'Pandas' is shorthand for
@@ -24,12 +26,12 @@ prom = d['Prominence']
 
 # Make a histogram!
 legend = ['Elevation', 'Prominence']
-bins = [400,1000,2000,3000,4000,5000,6000,7000,8000,9000,10000,11000]
-plt.hist([elev, prom], bins,color=['orange', 'green'])
+bins = [0,1000,2000,3000,4000,5000,6000,7000,8000,9000,10000,11000]
+plt.hist([elev, prom], bins,color=['orange', 'blue'])
 plt.xlabel("Elevation & Prominence")
 plt.ylabel("Frequency")
-plt.ylim(0,150,10)
-plt.xlim(0,11000,500)
+plt.ylim(0,270)
+plt.xlim(0,11000)
 plt.xticks()
 plt.legend(legend)
 plt.title('Washoe County Summits')

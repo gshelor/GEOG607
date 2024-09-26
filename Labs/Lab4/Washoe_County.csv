@@ -1,0 +1,288 @@
+Name,Latitude,Longitude,Elevation,Prominence,Isolation,State,Counties,Quad,Completed,Id
+Rose Mount,39.3439,-119.918,10776,3636,33.36,NV,Washoe,Mount Rose,yes,16856
+Houghton Mount,39.3341,-119.9395,10490,759,1.34,NV,Washoe,Mount Rose,no,40817
+Relay Peak,39.3154,-119.9471,10338,318,1.36,NV,Washoe,Mount Rose,no,40840
+Snowflower Mountain,39.3823,-119.9358,10243,383,2.82,NV,Washoe,Mount Rose NW,no,40858
+Tamarack Peak,39.3183,-119.9216,9897,517,1.38,NV,Washoe,Mount Rose,no,40941
+Slide Mountain,39.3128,-119.8844,9698,798,2.03,NV,Washoe,Mount Rose,no,40988
+"""Chickadee Ridge""",39.2915,-119.8992,9225,685,1.67,NV,Washoe,Mount Rose,no,41206
+Granite Peak,40.7909,-119.433,8980,3470,49.1,NV,Washoe,The Banjo,no,16887
+Granite Benchmark,40.8141,-119.4306,8957,777,1.61,NV,Washoe,The Banjo,no,41389
+Herlan Peak,39.2032,-119.9106,8860,600,3.71,NV,Washoe,Marlette Lake,no,41472
+Tule Peak,39.9761,-119.7441,8723,3431,32.22,NV,Washoe,Tule Peak,no,16896
+8703,39.2361,-119.9065,8703,363,2.29,NV,Washoe,Marlette Lake,no,41613
+8544,40.7845,-119.4085,8544,324,1.36,NV,Washoe,The Banjo,no,41784
+8407,39.223,-119.9001,8407,387,0.97,NV,Washoe,Marlette Lake,no,41926
+Virginia Peak,39.7555,-119.4613,8366,3658,21.41,NV,Washoe,Pah Rah Mountain,no,16846
+Peavine Peak,39.5868,-119.932,8266,2206,9.24,NV,Washoe,Verdi,yes,17472
+8243,39.3703,-119.9837,8243,303,2.69,NV,Washoe,Mount Rose,no,42141
+8208,39.1984,-119.8599,8208,468,2.74,NV,Washoe,Carson City,no,42198
+Tohakum Peak,40.1793,-119.4553,8182,3512,18.68,NV,Washoe,Tohakum Peak NW,no,16878
+Fox Mountain,41.0254,-119.5583,8182,2092,16.07,NV,Washoe,Fox Mountain,no,17596
+Pyramid Benchmark,40.169,-119.457,8101,451,0.72,NV,Washoe,Tohakum Peak NW,no,42351
+Pond Peak,39.6519,-119.4638,8035,867,7.17,NV,Washoe,Olinghouse,no,42451
+State Line Peak,40.0299,-119.9792,7990,2700,10.44,NV,Washoe,State Line Peak,no,17139
+7949,40.0271,-119.8275,7949,1139,5.65,NV,Washoe,Spanish Flat,no,42570
+7923,39.6877,-119.4518,7923,427,2.56,NV,Washoe,Olinghouse,no,42618
+Hays Canyon Peak,41.2734,-119.9341,7916,2026,11.13,NV,Washoe,Hays Canyon,no,17620
+Petersen Mountain,39.7959,-119.9762,7857,2527,10.23,NV,Washoe,Granite Peak,no,17212
+7785,39.6994,-119.456,7785,305,0.84,NV,Washoe,Olinghouse,no,42835
+7772,40.7416,-119.396,7772,522,3.04,NV,Washoe,Godeys Rock,no,42872
+Hog Ranch Mountain,41.1084,-119.4265,7700,1120,8.6,NV,Washoe,Leadville,no,42999
+7686,41.331,-119.9071,7686,586,4.22,NV,Washoe,Hays Canyon,no,43039
+7663,41.074,-119.4287,7663,523,2.38,NV,Washoe,Leadville,no,43080
+Wagon Tire Mountain,40.8889,-119.4862,7635,815,5.94,NV,Washoe,Melody Mountain,no,43139
+Home Benchmark,41.3467,-119.9356,7630,450,1.84,NV,Washoe,Hays Canyon,no,43146
+Pah-Rum Peak,40.3905,-119.5754,7608,2459,15.92,NV,Washoe,Pah-Rum Peak,no,17262
+7574,40.1118,-119.4507,7574,714,3.97,NV,Washoe,Dove Creek,no,43262
+Fortynine Mountain,41.5522,-119.9348,7558,1328,14.21,NV,Washoe,Fortynine Mountain,no,43283
+Dogskin Mountain,39.8925,-119.7906,7486,2057,6.29,NV,Washoe,Dogskin Mountain,no,17641
+Monte Benchmark,39.8324,-119.5507,7486,679,7.13,NV,Washoe,Moses Rock,no,43428
+7472,39.9161,-119.8062,7472,337,1.83,NV,Washoe,Dogskin Mountain,no,43461
+Scott Mount,39.2619,-119.7052,7467,807,3.43,NV,Washoe,Virginia City,no,43472
+7460,40.0358,-119.8066,7460,570,1.26,NV,Washoe,Spanish Flat,no,43488
+7450,40.8524,-119.4899,7450,390,2.53,NV,Washoe,The Banjo,no,43513
+Spanish Springs Peak,39.6491,-119.5787,7401,889,6.12,NV,Washoe,Spanish Springs Peak,no,43617
+7376,41.5155,-119.9357,7376,316,2.54,NV,Washoe,Fortynine Mountain,no,43681
+7365,39.8849,-119.7763,7365,361,0.92,NV,Washoe,Dogskin Mountain,no,40687
+7309,40.1837,-119.4744,7309,529,1.05,NV,Washoe,Tohakum Peak NW,no,43790
+Boulder Mountain,41.3075,-119.7883,7305,595,6.38,NV,Washoe,Boulder Mountain,no,43796
+7300,40.393,-119.6038,7300,520,1.51,NV,Washoe,Pah-Rum Peak,no,43809
+Catnip Mountain,41.849,-119.3892,7294,1364,31.44,NV,Washoe,Swan Lake,no,43828
+7270,40.0566,-119.78,7270,300,2.01,NV,Washoe,Spanish Flat,no,141923
+7226,40.4375,-119.569,7226,566,3.27,NV,Washoe,Pah-Rum Peak,no,43967
+Metzker Peak,41.6333,-119.92,7205,1015,5.66,NV,Washoe,Carter Reservoir,no,44013
+Melody Mountain,40.9485,-119.4685,7205,435,4.23,NV,Washoe,Melody Mountain,no,44014
+7201,39.9148,-119.8237,7201,394,0.93,NV,Washoe,Dogskin Mountain,no,44021
+Yellow Peak,41.836,-119.625,7191,1216,12.18,NV,Washoe,Bald Mountain,no,44038
+Badger Mountain,41.615,-119.3328,7190,1100,16.45,NV,Washoe,Badger Mountain SE,no,44045
+Freds Mountain,39.779,-119.8533,7188,1496,6.64,NV,Washoe,Bedell Flat,no,44046
+Moses Rock,39.8213,-119.5366,7181,308,1.07,NV,Washoe,Moses Rock,no,44060
+7173,41.5793,-119.9302,7173,563,1.89,NV,Washoe,Fortynine Mountain,no,44119
+7143,41.9415,-119.853,7143,993,13.82,NV,Washoe,Little Coleman Canyon,no,44132
+Sweetwater Benchmark,40.2483,-119.4686,7114,620,4.48,NV,Washoe,Tohakum Peak NW,no,44191
+Red Rock Benchmark,39.8551,-119.9909,7109,400,4.17,NV,Washoe,Granite Peak,no,44200
+Fish Creek Mountain,41.7463,-119.3337,7081,571,3.57,NV,Washoe,Blowout Mountain,no,44269
+7078,40.0525,-119.7584,7078,328,1.18,NV,Washoe,Spanish Flat,no,142295
+7072,40.0963,-119.7819,7072,362,2.75,NV,Washoe,Spanish Flat,no,44288
+Badger Mountain North,41.6375,-119.3699,7066,390,2.47,NV,Washoe,Blowout Mountain,no,44315
+7064,41.6546,-119.3494,7064,414,1.59,NV,Washoe,Blowout Mountain,no,44305
+7046,41.8195,-119.6439,7046,316,1.5,NV,Washoe,Calcutta Lake,no,44347
+Lone Spring Mountain,41.518,-119.6368,7036,1026,15.48,NV,Washoe,Painted Point,no,44369
+6995,41.4656,-119.6408,6995,525,3.63,NV,Washoe,Powers Well,no,44535
+Mahogany Mountain,41.2972,-119.4737,6979,989,13.29,NV,Washoe,Mahogany Mountain,no,44501
+6971,39.6342,-119.5558,6971,393,1.6,NV,Washoe,Spanish Springs Peak,no,44517
+Nut Mountain,41.5908,-119.4565,6920,794,5.52,NV,Washoe,Nut Mountain,no,44628
+Rowland Mountain,40.8551,-119.9465,6911,531,10.3,NV,Washoe,Hole In The Ground,no,44640
+Cherry Mountain,41.147,-119.746,6908,858,11.32,NV,Washoe,Bordwell Spring,no,44649
+6895,40.9232,-119.4939,6895,605,2.2,NV,Washoe,Melody Mountain,no,44687
+6881,40.2328,-119.4775,6881,301,1.17,NV,Washoe,Tohakum Peak NW,no,44712
+Big Hat Mountain,41.4538,-119.9482,6870,600,4.32,NV,Washoe,Big Hat Mountain,no,44732
+Louse Benchmark,39.4096,-119.6645,6862,552,5.43,NV,Washoe,Steamboat,no,44751
+Sheep Peaks North,41.1367,-119.3333,6854,594,1.45,NV,Washoe,McConnel Canyon,no,44773
+6849,40.4591,-119.5589,6849,509,1.59,NV,Washoe,Pah-Rum Peak,no,44783
+Poodle Mountain,40.8102,-119.6483,6832,946,8.79,NV,Washoe,Poodle Mountain,no,44813
+Nellie Spring Mountain,41.3962,-119.6137,6832,502,5,NV,Washoe,Nellie Spring Mountain,no,44812
+6815,39.7256,-119.9972,6815,305,4.99,NV,Washoe,Reno NW,no,142226
+Coleman Benchmark,41.9676,-119.7375,6808,578,2.69,NV,Washoe,Coleman Canyon,no,44872
+6807,39.9377,-119.8546,6807,492,2.28,NV,Washoe,Dogskin Mountain,no,44875
+Hart Mountain,41.2829,-119.5856,6806,596,5.9,NV,Washoe,Hart Mountain,no,44878
+6782,41.5518,-119.879,6782,492,2.89,NV,Washoe,Fortynine Mountain,no,44916
+6774,40.0513,-119.4335,6774,754,4.28,NV,Washoe,Dove Creek,no,44940
+6771,41.1222,-119.3986,6771,311,1.74,NV,Washoe,Leadville,no,44944
+Burnt Mountain,40.7379,-119.7185,6770,660,6.21,NV,Washoe,Horse Canyon,no,44967
+6766,40.0249,-119.4412,6766,586,1.87,NV,Washoe,Dove Creek,no,44954
+6766,41.8257,-119.8621,6766,336,8.02,NV,Washoe,Mosquito Valley,no,44955
+6752,41.0402,-119.4072,6752,412,2.59,NV,Washoe,Leadville,no,44976
+Little Mahogany Mountain,41.292,-119.5484,6750,440,2.03,NV,Washoe,Hart Mountain,no,44979
+6745,39.9505,-119.8597,6745,348,0.93,NV,Washoe,Dogskin Mountain,no,44987
+6741,41.203,-119.6843,6741,451,5.03,NV,Washoe,Bordwell Spring,no,44997
+6738,41.514,-119.871,6738,308,2.65,NV,Washoe,Vya,no,45009
+6737,40.5026,-119.5722,6737,717,3.09,NV,Washoe,Smith Canyon,no,45012
+Butte Benchmark,40.9016,-119.9198,6735,345,3.51,NV,Washoe,Burnt Lake,no,45013
+Pinto Peak,41.3066,-119.6538,6721,551,3.91,NV,Washoe,Pinto Springs,no,45038
+Button Mountain,40.7572,-119.6643,6708,398,3.14,NV,Washoe,Poodle Mountain,no,45063
+6687,40.4573,-119.5471,6687,347,0.63,NV,Washoe,Pah-Rum Peak,no,45111
+6672,41.8759,-119.7389,6672,862,6.26,NV,Washoe,Coleman Canyon,no,45136
+6668,41.1637,-119.7066,6668,306,2.35,NV,Washoe,Bordwell Spring,no,45147
+Round Mountain,41.9817,-119.4303,6662,376,9.42,NV,Washoe,Catnip Canyon,no,45156
+Red Mountain,40.9403,-119.4577,6644,304,0.8,NV,Washoe,Melody Mountain,no,45208
+6642,41.3604,-119.9684,6642,302,1.95,NV,Washoe,Hays Canyon,no,45213
+6636,40.0368,-119.4335,6636,496,0.92,NV,Washoe,Dove Creek,no,45221
+6630,41.676,-119.9537,6630,420,3.43,NV,Washoe,Carter Reservoir,no,45240
+6630,40.7323,-119.699,6630,300,1.09,NV,Washoe,Horse Canyon,no,45239
+6620,40.9082,-119.5779,6620,450,4.51,NV,Washoe,Crutcher Canyon,no,45262
+Van Benchmark,41.3698,-119.3123,6609,479,5.1,NV,Washoe,High Rock Lake,no,45289
+6607,39.7712,-119.9216,6607,587,3.37,NV,Washoe,Granite Peak,no,45291
+6599,41.0405,-119.4447,6599,339,1.96,NV,Washoe,Leadville,no,45306
+Twin Peaks North,40.6416,-119.8925,6592,942,11.3,NV,Washoe,Mixie Flat,no,45316
+6590,41.8076,-119.3606,6590,300,3.22,NV,Washoe,Catnip Mountain SE,no,142283
+6590,40.7703,-119.6577,6590,300,0.97,NV,Washoe,Poodle Mountain,no,45319
+6586,41.9689,-119.7057,6586,336,1.64,NV,Washoe,Coleman Canyon,no,45326
+Gin Benchmark,39.915,-119.6663,6564,314,5.91,NV,Washoe,Tule Peak,no,45378
+Berry Benchmark,41.7417,-119.9043,6564,314,5.21,NV,Washoe,Carter Reservoir,no,45377
+Table Butte,41.6672,-119.5372,6562,572,6.73,NV,Washoe,Massacre Lake,no,45383
+6562,40.1174,-119.4885,6562,462,2.04,NV,Washoe,Dove Creek,no,45382
+6555,39.7509,-119.945,6555,371,1.88,NV,Washoe,Granite Peak,no,45396
+Nache Peak,39.9966,-119.2358,6552,565,3.38,NV,Washoe,Black Warrior Peak,no,45401
+6549,41.9044,-119.7864,6549,719,3.14,NV,Washoe,Little Coleman Canyon,no,45408
+Ducky Benchmark,41.1671,-119.9316,6540,310,7.01,NV,Washoe,Pegleg Canyon,no,45429
+6529,41.3857,-119.7538,6529,459,5.7,NV,Washoe,Boulder Lake,no,45464
+6524,40.9503,-119.9764,6524,354,4.48,NV,Washoe,Burnt Lake,no,45475
+Willow Benchmark,41.2133,-119.407,6519,509,6.32,NV,Washoe,Butte Spring,no,45484
+6516,40.9258,-119.5551,6516,406,1.7,NV,Washoe,Crutcher Canyon,no,45490
+6511,40.2529,-119.4251,6511,531,2.32,NV,Washoe,San Emidio Desert South,no,45501
+Fish Benchmark,41.7559,-119.4044,6507,493,3.71,NV,Washoe,Swan Lake,no,45507
+6492,39.6973,-119.5959,6492,341,3.46,NV,Washoe,Spanish Springs Peak,no,45557
+6490,41.3728,-119.7316,6490,425,1.46,NV,Washoe,Pinto Springs,no,45537
+6485,40.0435,-119.4295,6485,305,0.51,NV,Washoe,Dove Creek,no,45547
+6449,41.2964,-119.4195,6449,339,2.82,NV,Washoe,Mahogany Mountain,no,141261
+6437,40.8805,-119.6306,6437,467,3.36,NV,Washoe,Hillside Spring,no,45639
+Black Butte,40.8169,-119.7173,6436,346,3.64,NV,Washoe,Poodle Mountain,no,45641
+6434,41.9006,-119.8065,6434,544,1.07,NV,Washoe,Little Coleman Canyon,no,45645
+6430,41.3386,-119.7224,6430,360,2.41,NV,Washoe,Pinto Springs,no,45650
+6426,41.3497,-119.5536,6426,356,4,NV,Washoe,Hart Mountain,no,45660
+6422,40.7631,-119.7094,6422,312,1.81,NV,Washoe,Poodle Mountain,no,45665
+6421,40.8798,-119.6813,6421,331,2.65,NV,Washoe,Hillside Spring,no,45667
+6410,39.4379,-119.6611,6410,460,1.97,NV,Washoe,Steamboat,no,45693
+6409,40.4836,-119.5471,6409,353,1.8,NV,Washoe,Pah-Rum Peak,no,45695
+Wall Benchmark,41.5418,-119.3879,6374,604,4.91,NV,Washoe,Nut Mountain,no,45754
+Bitner Butte,41.7818,-119.5061,6366,341,5.54,NV,Washoe,Bald Mountain,no,45774
+6361,41.1057,-119.36,6361,301,1.73,NV,Washoe,Division Peak,no,142282
+Cui Ui Benchmark,39.997,-119.4652,6348,568,2.31,NV,Washoe,Nixon NW,no,45805
+6347,40.7507,-119.3424,6347,697,2.88,NV,Washoe,Hualapai Flat South,no,45814
+Black Warrior Peak,39.913,-119.2441,6338,752,5.8,NV,Washoe,Black Warrior Peak,no,45840
+Boulder Benchmark,41.4182,-119.7969,6335,370,3.17,NV,Washoe,Boulder Lake,no,45843
+Kits Peak,40.2646,-119.4941,6327,387,1.76,NV,Washoe,San Emidio Desert South,no,45857
+6313,41.2555,-119.3663,6313,483,3.61,NV,Washoe,High Rock Lake,no,45878
+6310,40.3423,-119.5487,6310,450,3.62,NV,Washoe,Fox Canyon,no,45883
+6305,39.4243,-119.6638,6305,335,0.95,NV,Washoe,Steamboat,no,45895
+Painted Point,41.5926,-119.6984,6294,524,6.07,NV,Washoe,Painted Point,no,45925
+6285,40.3323,-119.5487,6285,305,0.69,NV,Washoe,Fox Canyon,no,45944
+Wind Benchmark,40.4038,-119.3608,6271,1501,4.98,NV,Washoe,Kumiva Peak,no,45965
+6253,39.6122,-119.4115,6253,627,3.91,NV,Washoe,Derby Dam,no,45994
+6253,41.1981,-119.8193,6253,523,5.2,NV,Washoe,Wall Canyon Reservoir,no,45993
+6238,41.1193,-119.9725,6238,368,3.74,NV,Washoe,Duck Lake,no,46020
+6237,41.1773,-119.3497,6237,487,1.76,NV,Washoe,McConnel Canyon,no,46025
+6228,39.8486,-119.2217,6228,888,3.82,NV,Washoe,Juniper Peak,no,46035
+6221,40.3935,-119.9095,6221,1001,7.47,NV,Washoe,Red Rock Canyon,no,46043
+Black Mountain,40.452,-119.9322,6219,389,4.22,NV,Washoe,Red Rock Canyon,no,46058
+Smoke Benchmark,40.5193,-119.9382,6186,756,4.67,NV,Washoe,Smoke Creek Ranch,no,46099
+Steamboat Hills,39.3671,-119.79,6178,708,6.29,NV,Washoe,Washoe City,no,46114
+Spanish Benchmark,39.6507,-119.7691,6161,1011,9.74,NV,Washoe,Reno NE,no,46143
+Granite Peak,39.8471,-119.884,6151,394,4.98,NV,Washoe,Granite Peak,no,46156
+Buttes The,41.2643,-119.7201,6149,324,4.52,NV,Washoe,Pinto Springs,no,46160
+Mud Benchmark,40.514,-119.5269,6114,374,2.36,NV,Washoe,Smith Canyon,no,46201
+Black Hills,41.5404,-119.729,6110,380,3.94,NV,Washoe,Painted Point,no,46212
+6098,40.1812,-119.5003,6098,438,1.38,NV,Washoe,Tohakum Peak NW,no,46238
+6096,41.2072,-119.9647,6096,306,3.27,NV,Washoe,Pegleg Canyon,no,46244
+Yellow Hills,41.4566,-119.3649,6093,521,4.45,NV,Washoe,Yellow Hills East,no,46250
+6093,39.989,-119.4236,6093,433,2.27,NV,Washoe,Nixon NW,no,46249
+Burro Mountain,40.5538,-119.8853,6092,1082,3.66,NV,Washoe,Smoke Creek Ranch,no,46253
+6075,39.4669,-119.7006,6075,885,2.91,NV,Washoe,Steamboat,no,46278
+6073,41.0056,-119.6353,6073,443,4.25,NV,Washoe,Lost Creek Pass,no,46284
+6072,40.7024,-119.9141,6072,322,4.36,NV,Washoe,Mixie Flat,no,46285
+Seven Lakes Mountain,39.915,-119.9418,6059,1089,4.88,NV,Washoe,Seven Lakes Mountain,no,46317
+6054,40.6959,-119.8938,6054,324,1.16,NV,Washoe,Mixie Flat,no,46323
+6050,40.6431,-119.9157,6050,320,1.22,NV,Washoe,Mixie Flat,no,46326
+6033,41.5697,-119.3807,6033,383,1.97,NV,Washoe,Nut Mountain,no,46348
+Juniper Ridge,39.7142,-119.8418,6030,620,4.52,NV,Washoe,Reno NE,no,46352
+Hungry Ridge North,39.7414,-119.7091,6023,955,6.75,NV,Washoe,Griffith Canyon,no,46368
+Coyote Ridge,39.7225,-119.8183,6021,531,1.38,NV,Washoe,Reno NE,no,46374
+Warm Springs Mountain,39.7954,-119.7671,6020,722,4.72,NV,Washoe,Bedell Flat,no,46324
+Hungry Ridge South,39.7244,-119.715,6020,427,1.22,NV,Washoe,Griffith Canyon,no,46379
+Granite Hills,39.6509,-119.939,6018,608,4.45,NV,Washoe,Reno NW,no,46391
+Cotton Benchmark,41.1722,-119.5759,6011,319,6.03,NV,Washoe,Chester Lyons Spring,no,46403
+5964,39.676,-119.2076,5964,568,3.58,NV,Washoe,Two Tips,no,46463
+Hungry Mountain,39.7514,-119.7892,5964,568,2.53,NV,Washoe,Bedell Flat,no,46464
+Miller Benchmark,39.9954,-119.872,5958,332,3.17,NV,Washoe,Dogskin Mountain,no,46472
+5950,39.5313,-119.6561,5950,783,2.92,NV,Washoe,Vista,no,46485
+5941,40.6339,-119.8655,5941,511,1.51,NV,Washoe,Buffalo Creek,no,46498
+5933,41.0189,-119.4497,5933,313,1.52,NV,Washoe,Leadville,no,141259
+5925,41.3898,-119.3881,5925,415,4.17,NV,Washoe,Yellow Hills West,no,46528
+5912,41.0808,-119.3675,5912,372,1.77,NV,Washoe,Division Peak,no,46546
+5899,41.3827,-119.4247,5899,369,1.96,NV,Washoe,Yellow Hills West,no,46573
+5890,40.7034,-119.8764,5890,380,1.05,NV,Washoe,Mixie Flat,no,46585
+5890,39.5493,-119.6618,5890,360,1.28,NV,Washoe,Vista,no,46584
+5890,41.5981,-119.9861,5890,300,3.17,NV,Washoe,Fortynine Mountain,no,46586
+5881,39.9904,-119.2657,5881,301,1.64,NV,Washoe,Russell Peak,no,46599
+Sand Benchmark,40.2591,-119.8945,5877,967,9.33,NV,Washoe,Parker Canyon,no,46604
+5874,40.4346,-119.5241,5874,454,1.98,NV,Washoe,Pah-Rum Peak,no,46611
+5871,40.0222,-119.9244,5871,361,2.95,NV,Washoe,State Line Peak,no,46612
+5870,39.6243,-119.8019,5870,340,2.53,NV,Washoe,Reno,no,46617
+5836,40.7003,-119.3707,5836,366,3.15,NV,Washoe,Gerlach,no,46665
+5830,39.8083,-119.8198,5830,302,2.7,NV,Washoe,Bedell Flat,no,46675
+5812,41.022,-119.9683,5812,662,4.98,NV,Washoe,Duck Lake,no,46701
+5806,41.1576,-119.5338,5806,336,2.41,NV,Washoe,Chester Lyons Spring,no,46718
+White Hill,39.6917,-119.3797,5800,436,3.85,NV,Washoe,Olinghouse,no,46728
+Wildcat Hill,39.9765,-119.8607,5800,404,1.44,NV,Washoe,Dogskin Mountain,no,46729
+5797,39.7377,-119.6433,5797,368,3.51,NV,Washoe,Griffith Canyon,no,46731
+5796,39.7157,-119.9112,5796,386,3.03,NV,Washoe,Reno NW,no,46733
+5793,39.9177,-119.9952,5793,364,2.84,NV,Washoe,Seven Lakes Mountain,no,46736
+5769,40.4262,-119.3515,5769,399,1.62,NV,Washoe,Kumiva Peak,no,46756
+5764,40.5392,-119.5316,5764,304,1.76,NV,Washoe,Smith Canyon,no,46762
+5671,40.5795,-119.8687,5671,321,1.98,NV,Washoe,Salt Marsh,no,46871
+5659,39.8322,-119.7906,5659,328,2.27,NV,Washoe,Bedell Flat,no,46885
+Black Mountain,39.7443,-119.2819,5656,752,6.16,NV,Washoe,Wadsworth,no,46892
+Mission Peak,40.2762,-119.8506,5627,1197,2.6,NV,Washoe,Sand Pass,no,46927
+Frost Benchmark,39.5864,-119.5578,5610,410,3.31,NV,Washoe,Patrick,no,46954
+5583,40.3334,-119.3963,5583,393,5.22,NV,Washoe,San Emidio Desert South,no,46983
+Agency Benchmark,39.8215,-119.2862,5572,1072,3.91,NV,Washoe,Nixon,no,46995
+5528,39.7502,-119.5472,5528,361,4.48,NV,Washoe,Moses Rock,no,47045
+5510,40.1528,-119.801,5510,300,4.04,NV,Washoe,Astor Pass,no,47059
+5503,39.6669,-119.8021,5503,393,2.08,NV,Washoe,Reno NE,no,47069
+5498,39.7277,-119.3824,5498,331,2.49,NV,Washoe,Olinghouse,no,47080
+Terraced Hills,40.224,-119.7305,5494,1324,6.18,NV,Washoe,The Needle Rocks,no,47087
+Black Mountain North,39.7698,-119.3159,5485,465,2.53,NV,Washoe,Nixon,no,47098
+5478,40.3382,-119.3767,5478,508,1.09,NV,Washoe,San Emidio Desert South,no,47104
+5474,40.5951,-119.4898,5474,654,4.45,NV,Washoe,West of Empire,no,47108
+"""Red Hill""",39.5842,-119.7986,5470,320,2.78,NV,Washoe,Reno,no,47129
+5469,39.6951,-119.2273,5469,368,1.69,NV,Washoe,Two Tips,no,47112
+5460,40.5681,-119.5202,5460,480,2.09,NV,Washoe,Smith Canyon,no,47121
+5450,40.2828,-119.8297,5450,460,1.19,NV,Washoe,Sand Pass,no,47137
+5410,40.4963,-119.5129,5410,350,1.43,NV,Washoe,Pah-Rum Peak,no,47189
+5410,40.3032,-119.9349,5410,300,3.72,NV,Washoe,Parker Canyon,no,47190
+Junction House Benchmark,39.767,-119.6573,5406,436,2.16,NV,Washoe,Fraser Flat,no,47193
+5403,39.776,-119.6637,5403,302,0.71,NV,Washoe,Fraser Flat,no,142229
+5380,39.9659,-119.463,5380,440,2.15,NV,Washoe,Nixon NW,no,47216
+5347,39.9173,-119.6132,5347,475,2.82,NV,Washoe,Sutcliffe,no,47257
+5346,40.2173,-119.8637,5346,516,3.32,NV,Washoe,Astor Pass,no,47258
+5344,39.9173,-119.5925,5344,341,1.1,NV,Washoe,Sutcliffe,no,47260
+Porcupine Mountain,39.8837,-119.9497,5331,427,2.21,NV,Washoe,Seven Lakes Mountain,no,47276
+5324,40.2636,-119.8446,5324,334,0.93,NV,Washoe,Sand Pass,no,47288
+Sugarloaf Peak,39.6754,-119.6745,5291,387,4.02,NV,Washoe,Griffith Canyon,no,47317
+5285,39.7353,-119.2643,5285,315,1.12,NV,Washoe,Wadsworth,no,142227
+Round Mountain,41.0072,-119.8186,5284,374,7.88,NV,Washoe,Juniper Springs,no,47323
+5277,40.0809,-119.7247,5277,427,2.65,NV,Washoe,Pyramid SW,no,47333
+5275,39.5813,-119.4877,5275,436,3.53,NV,Washoe,Derby Dam,no,47336
+5273,40.039,-119.4785,5273,333,2.2,NV,Washoe,Dove Creek,no,47338
+5254,40.2516,-119.5305,5254,394,2.12,NV,Washoe,Fox Canyon,no,47363
+5226,39.8367,-119.7351,5226,368,2.96,NV,Washoe,Fraser Flat,no,47391
+5223,39.9457,-119.2828,5223,643,3.05,NV,Washoe,Russell Peak,no,47394
+5217,40.2218,-119.7501,5217,347,1.05,NV,Washoe,The Needle Rocks,no,47405
+5204,40.2331,-119.671,5204,734,3.2,NV,Washoe,The Needle Rocks,no,47411
+Kimberly Hill,39.7935,-119.6852,5095,584,1.66,NV,Washoe,Fraser Flat,no,47503
+5088,39.5804,-119.7588,5088,326,2.14,NV,Washoe,Reno,no,47512
+Jackass Peak,39.8845,-119.5614,5075,663,2.81,NV,Washoe,Sutcliffe,no,47521
+5068,39.9018,-119.6171,5068,459,1.09,NV,Washoe,Sutcliffe,no,47529
+5047,40.9691,-119.3571,5047,457,4.62,NV,Washoe,Hualapai Flat North,no,47554
+5032,40.2729,-119.6733,5032,302,2.76,NV,Washoe,Emerson Pass,no,47567
+5028,40.9974,-119.3998,5028,328,2.97,NV,Washoe,Melody Mountain,no,47572
+Rattlesnake Mountain,39.4723,-119.7581,5011,541,3.09,NV,Washoe,Mount Rose NE,no,47588
+4972,40.3622,-119.8492,4972,342,3.84,NV,Washoe,Sand Pass,no,47625
+4911,39.8593,-119.6472,4911,400,3.35,NV,Washoe,Fraser Flat,no,47680
+4910,39.4752,-119.7273,4910,380,1.54,NV,Washoe,Steamboat,no,47682
+4903,40.2958,-119.7008,4903,893,2.15,NV,Washoe,Emerson Pass,no,47688
+4885,39.9275,-119.3107,4885,385,1.94,NV,Washoe,Russell Peak,no,47702
+4879,40.2929,-119.6648,4879,309,1.45,NV,Washoe,Emerson Pass,no,47710
+4874,40.4379,-119.8724,4874,364,3.3,NV,Washoe,Sheepshead Spring,no,47716
+4839,39.877,-119.6385,4839,361,1.31,NV,Washoe,Tule Peak,no,47744
+4717,39.8711,-119.6158,4717,305,1.27,NV,Washoe,Moses Rock,no,47829
+4694,40.3849,-119.8378,4694,319,1.68,NV,Washoe,Sheepshead Spring,no,47841
+Marble Bluff,39.8734,-119.3842,4625,525,5.41,NV,Washoe,Pah Rah Mountain,no,47881
+Godeys Rock,40.6348,-119.4286,4623,605,4.23,NV,Washoe,Godeys Rock,no,47882
+Falcon Hill,40.3214,-119.35,4611,351,1.83,NV,Washoe,Purgatory Peak,no,47887
+Never Sweat Hills,40.1664,-119.824,4551,321,1.54,NV,Washoe,Astor Pass,no,47923
+4545,40.1723,-119.7563,4545,315,2.72,NV,Washoe,Astor Pass,no,47927
+Anaho Island,39.9514,-119.5139,4376,581,2.88,NV,Washoe,Sutcliffe,no,48006
+Pyramid The,39.9803,-119.5021,4153,359,2.09,NV,Washoe,Sutcliffe,no,48089
