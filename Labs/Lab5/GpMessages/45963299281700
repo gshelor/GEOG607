@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Wednesday, October 9, 2024 7:42:45 PM</msg><msg code="-2147467259" type="100">Failed to execute. Parameters are not valid.</msg><msg code="32659" type="100">updateParameters Error: ﻿Traceback (most recent call last):
+﻿  File "c:\program files\arcgis\pro\Resources\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateGeometryAttributes.tool\tool.script.validate.py", line 220, in &lt;module&gt;
+﻿    "LINE_END_Y"]:
+﻿
+﻿  File "c:\program files\arcgis\pro\Resources\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateGeometryAttributes.tool\tool.script.validate.py", line 148, in updateParameters
+﻿    "DMS_DIR_FIRST",
+﻿                  ^^^
+﻿AttributeError: DescribeData: Method fields does not exist
+</msg><msg code="-2147467259" type="100">Failed to execute (CalculateGeometryAttributes).</msg><msg code="0" type="3">Failed at Wednesday, October 9, 2024 7:42:45 PM (Elapsed Time: 0.03 seconds)</msg></messages>
