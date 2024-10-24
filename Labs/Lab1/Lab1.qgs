@@ -1,0 +1,2900 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis saveDateTime="2024-08-28T17:56:27" saveUser="griffinshelor" version="3.34.1-Prizren" projectname="" saveUserFull="Griffin Shelor">
+  <homePath path=""/>
+  <title></title>
+  <transaction mode="Disabled"/>
+  <projectFlags set=""/>
+  <projectCrs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["NAD83 / UTM zone 11N",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["UTM zone 11N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-117,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["North America - between 120°W and 114°W - onshore and offshore. Canada - Alberta; British Columbia; Northwest Territories; Nunavut. United States (USA) - California; Idaho; Nevada, Oregon; Washington."],BBOX[30.88,-120,83.5,-114]],ID["EPSG",26911]]</wkt>
+      <proj4>+proj=utm +zone=11 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>2288</srsid>
+      <srid>26911</srid>
+      <authid>EPSG:26911</authid>
+      <description>NAD83 / UTM zone 11N</description>
+      <projectionacronym>utm</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <elevation-shading-renderer edl-distance="0.5" hillshading-is-multidirectional="0" hillshading-z-factor="1" light-altitude="45" edl-distance-unit="0" is-active="0" edl-strength="1000" edl-is-active="1" hillshading-is-active="0" combined-method="0" light-azimuth="315"/>
+  <layer-tree-group>
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer patch_size="-1,-1" id="TRINA_Segments_ad030092_672e_46a7_bddc_944382e658c1" legend_exp="" legend_split_behavior="0" source="./Lab1_Data/TRINA_Segments.shp" name="TRINA_Segments" checked="Qt::Checked" providerKey="ogr" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer patch_size="-1,-1" id="Reprojected_db12306a_7cd6_471c_86b4_800c993c95bf" legend_exp="" legend_split_behavior="0" source="./Lab1_Data/RenoAreaBGs.shp|layername=RenoAreaBGs" name="Reprojected" checked="Qt::Checked" providerKey="ogr" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer patch_size="-1,-1" id="RenoSampleData_97639d34_36c7_4d9d_96ff_05187c3653c4" legend_exp="" legend_split_behavior="0" source="./Lab1_Data/RenoSampleData.shp" name="RenoSampleData" checked="Qt::Unchecked" providerKey="ogr" expanded="1">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>RenoSampleData_97639d34_36c7_4d9d_96ff_05187c3653c4</item>
+      <item>TRINA_Segments_ad030092_672e_46a7_bddc_944382e658c1</item>
+      <item>Reprojected_db12306a_7cd6_471c_86b4_800c993c95bf</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings self-snapping="0" type="1" maxScale="0" intersection-snapping="0" minScale="0" mode="2" unit="1" scaleDependencyMode="0" enabled="0" tolerance="12">
+    <individual-layer-settings>
+      <layer-setting id="TRINA_Segments_ad030092_672e_46a7_bddc_944382e658c1" type="1" maxScale="0" minScale="0" units="1" enabled="0" tolerance="12"/>
+      <layer-setting id="RenoSampleData_97639d34_36c7_4d9d_96ff_05187c3653c4" type="1" maxScale="0" minScale="0" units="1" enabled="0" tolerance="12"/>
+      <layer-setting id="Reprojected_db12306a_7cd6_471c_86b4_800c993c95bf" type="1" maxScale="0" minScale="0" units="1" enabled="0" tolerance="12"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <polymorphicRelations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>238838.43336377461673692</xmin>
+      <ymin>4336803.48914804775267839</ymin>
+      <xmax>305930.16761226201197132</xmax>
+      <ymax>4433135.83894272986799479</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>PROJCRS["NAD83 / UTM zone 11N",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["UTM zone 11N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-117,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["North America - between 120°W and 114°W - onshore and offshore. Canada - Alberta; British Columbia; Northwest Territories; Nunavut. United States (USA) - California; Idaho; Nevada, Oregon; Washington."],BBOX[30.88,-120,83.5,-114]],ID["EPSG",26911]]</wkt>
+        <proj4>+proj=utm +zone=11 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2288</srsid>
+        <srid>26911</srid>
+        <authid>EPSG:26911</authid>
+        <description>NAD83 / UTM zone 11N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" checked="Qt::Checked" name="TRINA_Segments" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="TRINA_Segments_ad030092_672e_46a7_bddc_944382e658c1" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" checked="Qt::Checked" name="Reprojected" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="Reprojected_db12306a_7cd6_471c_86b4_800c993c95bf" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" checked="Qt::Unchecked" name="RenoSampleData" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="RenoSampleData_97639d34_36c7_4d9d_96ff_05187c3653c4" visible="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368</xmin>
+      <ymin>179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368</ymin>
+      <xmax>-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368</xmax>
+      <ymax>-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <main-annotation-layer autoRefreshMode="Disabled" refreshOnNotifyMessage="" type="annotation" maxScale="0" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" minScale="1e+08" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" legendPlaceholderImage="">
+    <id>Annotations_f2182b32_867b_4fae_b064_a00e150c5ba5</id>
+    <datasource></datasource>
+    <keywordList>
+      <value></value>
+    </keywordList>
+    <layername>Annotations</layername>
+    <srs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>PROJCRS["NAD83 / UTM zone 11N",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["UTM zone 11N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-117,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["North America - between 120°W and 114°W - onshore and offshore. Canada - Alberta; British Columbia; Northwest Territories; Nunavut. United States (USA) - California; Idaho; Nevada, Oregon; Washington."],BBOX[30.88,-120,83.5,-114]],ID["EPSG",26911]]</wkt>
+        <proj4>+proj=utm +zone=11 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2288</srsid>
+        <srid>26911</srid>
+        <authid>EPSG:26911</authid>
+        <description>NAD83 / UTM zone 11N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </srs>
+    <resourceMetadata>
+      <identifier></identifier>
+      <parentidentifier></parentidentifier>
+      <language></language>
+      <type></type>
+      <title></title>
+      <abstract></abstract>
+      <links/>
+      <dates/>
+      <fees></fees>
+      <encoding></encoding>
+      <crs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </crs>
+      <extent/>
+    </resourceMetadata>
+    <items/>
+    <flags>
+      <Identifiable>1</Identifiable>
+      <Removable>1</Removable>
+      <Searchable>1</Searchable>
+      <Private>0</Private>
+    </flags>
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layerOpacity>1</layerOpacity>
+    <blendMode>0</blendMode>
+    <paintEffect/>
+  </main-annotation-layer>
+  <projectlayers>
+    <maplayer styleCategories="AllStyleCategories" labelsEnabled="0" simplifyMaxScale="1" autoRefreshTime="0" wkbType="MultiPolygon" maxScale="0" refreshOnNotifyEnabled="0" readOnly="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" simplifyAlgorithm="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" minScale="100000000" legendPlaceholderImage="" simplifyLocal="1" geometry="Polygon" autoRefreshMode="Disabled" symbologyReferenceScale="-1" type="vector">
+      <extent>
+        <xmin>-2033144.01549999974668026</xmin>
+        <ymin>442187.22719999961555004</ymin>
+        <xmax>-1960488.11070000007748604</xmax>
+        <ymax>529443.59229999966919422</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-120.25381228750136131</xmin>
+        <ymin>39.14274417838590381</ymin>
+        <xmax>-119.17321278765842862</xmax>
+        <ymax>40.05735155344946463</ymax>
+      </wgs84extent>
+      <id>RenoSampleData_97639d34_36c7_4d9d_96ff_05187c3653c4</id>
+      <datasource>./Lab1_Data/RenoSampleData.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>RenoSampleData</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>PROJCRS["USA_Contiguous_Albers_Equal_Area_Conic",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["Degree",0.0174532925199433]]],CONVERSION["USA_Contiguous_Albers_Equal_Area_Conic",METHOD["Albers Equal Area",ID["EPSG",9822]],PARAMETER["Latitude of false origin",37.5,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",-96,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",29.5,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",45.5,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",0,LENGTHUNIT["metre",1],ID["EPSG",8826]],PARAMETER["Northing at false origin",0,LENGTHUNIT["metre",1],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Not known."],AREA["United States (USA) - CONUS onshore - Alabama; Arizona; Arkansas; California; Colorado; Connecticut; Delaware; Florida; Georgia; Idaho; Illinois; Indiana; Iowa; Kansas; Kentucky; Louisiana; Maine; Maryland; Massachusetts; Michigan; Minnesota; Mississippi; Missouri; Montana; Nebraska; Nevada; New Hampshire; New Jersey; New Mexico; New York; North Carolina; North Dakota; Ohio; Oklahoma; Oregon; Pennsylvania; Rhode Island; South Carolina; South Dakota; Tennessee; Texas; Utah; Vermont; Virginia; Washington; West Virginia; Wisconsin; Wyoming."],BBOX[24.41,-124.79,49.38,-66.91]],ID["ESRI",102003]]</wkt>
+          <proj4>+proj=aea +lat_0=37.5 +lon_0=-96 +lat_1=29.5 +lat_2=45.5 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>27126</srsid>
+          <srid>102003</srid>
+          <authid>ESRI:102003</authid>
+          <description>USA_Contiguous_Albers_Equal_Area_Conic</description>
+          <projectionacronym>aea</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>PROJCRS["USA_Contiguous_Albers_Equal_Area_Conic",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["Degree",0.0174532925199433]]],CONVERSION["USA_Contiguous_Albers_Equal_Area_Conic",METHOD["Albers Equal Area",ID["EPSG",9822]],PARAMETER["Latitude of false origin",37.5,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",-96,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",29.5,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",45.5,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",0,LENGTHUNIT["metre",1],ID["EPSG",8826]],PARAMETER["Northing at false origin",0,LENGTHUNIT["metre",1],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Not known."],AREA["United States (USA) - CONUS onshore - Alabama; Arizona; Arkansas; California; Colorado; Connecticut; Delaware; Florida; Georgia; Idaho; Illinois; Indiana; Iowa; Kansas; Kentucky; Louisiana; Maine; Maryland; Massachusetts; Michigan; Minnesota; Mississippi; Missouri; Montana; Nebraska; Nevada; New Hampshire; New Jersey; New Mexico; New York; North Carolina; North Dakota; Ohio; Oklahoma; Oregon; Pennsylvania; Rhode Island; South Carolina; South Dakota; Tennessee; Texas; Utah; Vermont; Virginia; Washington; West Virginia; Wisconsin; Wyoming."],BBOX[24.41,-124.79,49.38,-66.91]],ID["ESRI",102003]]</wkt>
+            <proj4>+proj=aea +lat_0=37.5 +lon_0=-96 +lat_1=29.5 +lat_2=45.5 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+            <srsid>27126</srsid>
+            <srid>102003</srid>
+            <authid>ESRI:102003</authid>
+            <description>USA_Contiguous_Albers_Equal_Area_Conic</description>
+            <projectionacronym>aea</projectionacronym>
+            <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal accumulate="0" durationUnit="min" limitMode="0" startField="" fixedDuration="0" mode="0" endField="" durationField="" enabled="0" startExpression="" endExpression="">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation clamping="Terrain" extrusionEnabled="0" type="IndividualFeatures" respectLayerSymbol="1" zscale="1" showMarkerSymbolInSurfacePlots="0" binding="Centroid" symbology="Line" extrusion="0" zoffset="0">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol force_rhr="0" type="line" alpha="1" name="" clip_to_extent="1" is_animated="0" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{d26dd98d-ea04-40af-846d-2a178faabb02}" class="SimpleLine" pass="0" locked="0" enabled="1">
+              <Option type="Map">
+                <Option type="QString" value="0" name="align_dash_pattern"/>
+                <Option type="QString" value="square" name="capstyle"/>
+                <Option type="QString" value="5;2" name="customdash"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale"/>
+                <Option type="QString" value="MM" name="customdash_unit"/>
+                <Option type="QString" value="0" name="dash_pattern_offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="dash_pattern_offset_unit"/>
+                <Option type="QString" value="0" name="draw_inside_polygon"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="255,158,23,255" name="line_color"/>
+                <Option type="QString" value="solid" name="line_style"/>
+                <Option type="QString" value="0.6" name="line_width"/>
+                <Option type="QString" value="MM" name="line_width_unit"/>
+                <Option type="QString" value="0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="0" name="ring_filter"/>
+                <Option type="QString" value="0" name="trim_distance_end"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale"/>
+                <Option type="QString" value="MM" name="trim_distance_end_unit"/>
+                <Option type="QString" value="0" name="trim_distance_start"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale"/>
+                <Option type="QString" value="MM" name="trim_distance_start_unit"/>
+                <Option type="QString" value="0" name="tweak_dash_pattern_on_corners"/>
+                <Option type="QString" value="0" name="use_custom_dash"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="width_map_unit_scale"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol force_rhr="0" type="fill" alpha="1" name="" clip_to_extent="1" is_animated="0" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{8bc56670-dd33-459d-94f1-f9053c1efc86}" class="SimpleFill" pass="0" locked="0" enabled="1">
+              <Option type="Map">
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
+                <Option type="QString" value="255,158,23,255" name="color"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="182,113,16,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.2" name="outline_width"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="solid" name="style"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol force_rhr="0" type="marker" alpha="1" name="" clip_to_extent="1" is_animated="0" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{6bfeee94-701e-4554-aaa3-99e06e482d25}" class="SimpleMarker" pass="0" locked="0" enabled="1">
+              <Option type="Map">
+                <Option type="QString" value="0" name="angle"/>
+                <Option type="QString" value="square" name="cap_style"/>
+                <Option type="QString" value="255,158,23,255" name="color"/>
+                <Option type="QString" value="1" name="horizontal_anchor_point"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="diamond" name="name"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="182,113,16,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.2" name="outline_width"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="diameter" name="scale_method"/>
+                <Option type="QString" value="3" name="size"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+                <Option type="QString" value="MM" name="size_unit"/>
+                <Option type="QString" value="1" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 symbollevels="0" type="singleSymbol" referencescale="-1" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" type="fill" alpha="1" name="0" clip_to_extent="1" is_animated="0" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{486063c5-068f-4765-87d5-f9fc2f662653}" class="SimpleFill" pass="0" locked="0" enabled="1">
+              <Option type="Map">
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
+                <Option type="QString" value="183,72,75,255" name="color"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="35,35,35,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.26" name="outline_width"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="solid" name="style"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <selection mode="Default">
+        <selectionColor invalid="1"/>
+      </selection>
+      <customproperties>
+        <Option type="Map">
+          <Option type="List" name="dualview/previewExpressions">
+            <Option type="QString" value="&quot;NAME_E&quot;"/>
+          </Option>
+        </Option>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="GISJOIN" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STATEFP" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTYFP" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEOID" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="YEAR" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STUSAB" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTY" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TRACTA" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BLKGRPA" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEOID_2" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_E" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ALWTE010" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ALWTE011" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ALWTE012" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TotalPop" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctMale" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctFemale" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Pct18_35" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctHisp" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctDrvAlon" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctComm20" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctComm45" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctDegree" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctEngOnly" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Pct100k" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctEmploy" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctOcc" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctSFH" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Pct2PlVeh" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctHiJobs" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctLowJobs" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctJbs3054" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LODES_Join" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Jobs" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Young" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MidAge" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Older" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Low" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Middle" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="High" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OBJECTID" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEOID10" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CSA" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CSA_Name" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CBSA" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CBSA_Name" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CBSA_EMP" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CBSA_POP" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CBSA_WRK" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="E5_OFF10" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D1B" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D1C" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D2A_JPHH" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D2C_TRPMX1" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D3a" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D3aao" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D3amm" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D4a" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D4b025" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D5ar" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D5br" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctWhtAln" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="GISJOIN"/>
+        <alias index="1" name="" field="STATEFP"/>
+        <alias index="2" name="" field="COUNTYFP"/>
+        <alias index="3" name="" field="GEOID"/>
+        <alias index="4" name="" field="YEAR"/>
+        <alias index="5" name="" field="STUSAB"/>
+        <alias index="6" name="" field="COUNTY"/>
+        <alias index="7" name="" field="TRACTA"/>
+        <alias index="8" name="" field="BLKGRPA"/>
+        <alias index="9" name="" field="GEOID_2"/>
+        <alias index="10" name="" field="NAME_E"/>
+        <alias index="11" name="" field="ALWTE010"/>
+        <alias index="12" name="" field="ALWTE011"/>
+        <alias index="13" name="" field="ALWTE012"/>
+        <alias index="14" name="" field="TotalPop"/>
+        <alias index="15" name="" field="PctMale"/>
+        <alias index="16" name="" field="PctFemale"/>
+        <alias index="17" name="" field="Pct18_35"/>
+        <alias index="18" name="" field="PctHisp"/>
+        <alias index="19" name="" field="PctDrvAlon"/>
+        <alias index="20" name="" field="PctComm20"/>
+        <alias index="21" name="" field="PctComm45"/>
+        <alias index="22" name="" field="PctDegree"/>
+        <alias index="23" name="" field="PctEngOnly"/>
+        <alias index="24" name="" field="Pct100k"/>
+        <alias index="25" name="" field="PctEmploy"/>
+        <alias index="26" name="" field="PctOcc"/>
+        <alias index="27" name="" field="PctSFH"/>
+        <alias index="28" name="" field="Pct2PlVeh"/>
+        <alias index="29" name="" field="PctHiJobs"/>
+        <alias index="30" name="" field="PctLowJobs"/>
+        <alias index="31" name="" field="PctJbs3054"/>
+        <alias index="32" name="" field="LODES_Join"/>
+        <alias index="33" name="" field="Jobs"/>
+        <alias index="34" name="" field="Young"/>
+        <alias index="35" name="" field="MidAge"/>
+        <alias index="36" name="" field="Older"/>
+        <alias index="37" name="" field="Low"/>
+        <alias index="38" name="" field="Middle"/>
+        <alias index="39" name="" field="High"/>
+        <alias index="40" name="" field="OBJECTID"/>
+        <alias index="41" name="" field="GEOID10"/>
+        <alias index="42" name="" field="CSA"/>
+        <alias index="43" name="" field="CSA_Name"/>
+        <alias index="44" name="" field="CBSA"/>
+        <alias index="45" name="" field="CBSA_Name"/>
+        <alias index="46" name="" field="CBSA_EMP"/>
+        <alias index="47" name="" field="CBSA_POP"/>
+        <alias index="48" name="" field="CBSA_WRK"/>
+        <alias index="49" name="" field="E5_OFF10"/>
+        <alias index="50" name="" field="D1B"/>
+        <alias index="51" name="" field="D1C"/>
+        <alias index="52" name="" field="D2A_JPHH"/>
+        <alias index="53" name="" field="D2C_TRPMX1"/>
+        <alias index="54" name="" field="D3a"/>
+        <alias index="55" name="" field="D3aao"/>
+        <alias index="56" name="" field="D3amm"/>
+        <alias index="57" name="" field="D4a"/>
+        <alias index="58" name="" field="D4b025"/>
+        <alias index="59" name="" field="D5ar"/>
+        <alias index="60" name="" field="D5br"/>
+        <alias index="61" name="" field="PctWhtAln"/>
+      </aliases>
+      <splitPolicies>
+        <policy policy="Duplicate" field="GISJOIN"/>
+        <policy policy="Duplicate" field="STATEFP"/>
+        <policy policy="Duplicate" field="COUNTYFP"/>
+        <policy policy="Duplicate" field="GEOID"/>
+        <policy policy="Duplicate" field="YEAR"/>
+        <policy policy="Duplicate" field="STUSAB"/>
+        <policy policy="Duplicate" field="COUNTY"/>
+        <policy policy="Duplicate" field="TRACTA"/>
+        <policy policy="Duplicate" field="BLKGRPA"/>
+        <policy policy="Duplicate" field="GEOID_2"/>
+        <policy policy="Duplicate" field="NAME_E"/>
+        <policy policy="Duplicate" field="ALWTE010"/>
+        <policy policy="Duplicate" field="ALWTE011"/>
+        <policy policy="Duplicate" field="ALWTE012"/>
+        <policy policy="Duplicate" field="TotalPop"/>
+        <policy policy="Duplicate" field="PctMale"/>
+        <policy policy="Duplicate" field="PctFemale"/>
+        <policy policy="Duplicate" field="Pct18_35"/>
+        <policy policy="Duplicate" field="PctHisp"/>
+        <policy policy="Duplicate" field="PctDrvAlon"/>
+        <policy policy="Duplicate" field="PctComm20"/>
+        <policy policy="Duplicate" field="PctComm45"/>
+        <policy policy="Duplicate" field="PctDegree"/>
+        <policy policy="Duplicate" field="PctEngOnly"/>
+        <policy policy="Duplicate" field="Pct100k"/>
+        <policy policy="Duplicate" field="PctEmploy"/>
+        <policy policy="Duplicate" field="PctOcc"/>
+        <policy policy="Duplicate" field="PctSFH"/>
+        <policy policy="Duplicate" field="Pct2PlVeh"/>
+        <policy policy="Duplicate" field="PctHiJobs"/>
+        <policy policy="Duplicate" field="PctLowJobs"/>
+        <policy policy="Duplicate" field="PctJbs3054"/>
+        <policy policy="Duplicate" field="LODES_Join"/>
+        <policy policy="Duplicate" field="Jobs"/>
+        <policy policy="Duplicate" field="Young"/>
+        <policy policy="Duplicate" field="MidAge"/>
+        <policy policy="Duplicate" field="Older"/>
+        <policy policy="Duplicate" field="Low"/>
+        <policy policy="Duplicate" field="Middle"/>
+        <policy policy="Duplicate" field="High"/>
+        <policy policy="Duplicate" field="OBJECTID"/>
+        <policy policy="Duplicate" field="GEOID10"/>
+        <policy policy="Duplicate" field="CSA"/>
+        <policy policy="Duplicate" field="CSA_Name"/>
+        <policy policy="Duplicate" field="CBSA"/>
+        <policy policy="Duplicate" field="CBSA_Name"/>
+        <policy policy="Duplicate" field="CBSA_EMP"/>
+        <policy policy="Duplicate" field="CBSA_POP"/>
+        <policy policy="Duplicate" field="CBSA_WRK"/>
+        <policy policy="Duplicate" field="E5_OFF10"/>
+        <policy policy="Duplicate" field="D1B"/>
+        <policy policy="Duplicate" field="D1C"/>
+        <policy policy="Duplicate" field="D2A_JPHH"/>
+        <policy policy="Duplicate" field="D2C_TRPMX1"/>
+        <policy policy="Duplicate" field="D3a"/>
+        <policy policy="Duplicate" field="D3aao"/>
+        <policy policy="Duplicate" field="D3amm"/>
+        <policy policy="Duplicate" field="D4a"/>
+        <policy policy="Duplicate" field="D4b025"/>
+        <policy policy="Duplicate" field="D5ar"/>
+        <policy policy="Duplicate" field="D5br"/>
+        <policy policy="Duplicate" field="PctWhtAln"/>
+      </splitPolicies>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="GISJOIN"/>
+        <default applyOnUpdate="0" expression="" field="STATEFP"/>
+        <default applyOnUpdate="0" expression="" field="COUNTYFP"/>
+        <default applyOnUpdate="0" expression="" field="GEOID"/>
+        <default applyOnUpdate="0" expression="" field="YEAR"/>
+        <default applyOnUpdate="0" expression="" field="STUSAB"/>
+        <default applyOnUpdate="0" expression="" field="COUNTY"/>
+        <default applyOnUpdate="0" expression="" field="TRACTA"/>
+        <default applyOnUpdate="0" expression="" field="BLKGRPA"/>
+        <default applyOnUpdate="0" expression="" field="GEOID_2"/>
+        <default applyOnUpdate="0" expression="" field="NAME_E"/>
+        <default applyOnUpdate="0" expression="" field="ALWTE010"/>
+        <default applyOnUpdate="0" expression="" field="ALWTE011"/>
+        <default applyOnUpdate="0" expression="" field="ALWTE012"/>
+        <default applyOnUpdate="0" expression="" field="TotalPop"/>
+        <default applyOnUpdate="0" expression="" field="PctMale"/>
+        <default applyOnUpdate="0" expression="" field="PctFemale"/>
+        <default applyOnUpdate="0" expression="" field="Pct18_35"/>
+        <default applyOnUpdate="0" expression="" field="PctHisp"/>
+        <default applyOnUpdate="0" expression="" field="PctDrvAlon"/>
+        <default applyOnUpdate="0" expression="" field="PctComm20"/>
+        <default applyOnUpdate="0" expression="" field="PctComm45"/>
+        <default applyOnUpdate="0" expression="" field="PctDegree"/>
+        <default applyOnUpdate="0" expression="" field="PctEngOnly"/>
+        <default applyOnUpdate="0" expression="" field="Pct100k"/>
+        <default applyOnUpdate="0" expression="" field="PctEmploy"/>
+        <default applyOnUpdate="0" expression="" field="PctOcc"/>
+        <default applyOnUpdate="0" expression="" field="PctSFH"/>
+        <default applyOnUpdate="0" expression="" field="Pct2PlVeh"/>
+        <default applyOnUpdate="0" expression="" field="PctHiJobs"/>
+        <default applyOnUpdate="0" expression="" field="PctLowJobs"/>
+        <default applyOnUpdate="0" expression="" field="PctJbs3054"/>
+        <default applyOnUpdate="0" expression="" field="LODES_Join"/>
+        <default applyOnUpdate="0" expression="" field="Jobs"/>
+        <default applyOnUpdate="0" expression="" field="Young"/>
+        <default applyOnUpdate="0" expression="" field="MidAge"/>
+        <default applyOnUpdate="0" expression="" field="Older"/>
+        <default applyOnUpdate="0" expression="" field="Low"/>
+        <default applyOnUpdate="0" expression="" field="Middle"/>
+        <default applyOnUpdate="0" expression="" field="High"/>
+        <default applyOnUpdate="0" expression="" field="OBJECTID"/>
+        <default applyOnUpdate="0" expression="" field="GEOID10"/>
+        <default applyOnUpdate="0" expression="" field="CSA"/>
+        <default applyOnUpdate="0" expression="" field="CSA_Name"/>
+        <default applyOnUpdate="0" expression="" field="CBSA"/>
+        <default applyOnUpdate="0" expression="" field="CBSA_Name"/>
+        <default applyOnUpdate="0" expression="" field="CBSA_EMP"/>
+        <default applyOnUpdate="0" expression="" field="CBSA_POP"/>
+        <default applyOnUpdate="0" expression="" field="CBSA_WRK"/>
+        <default applyOnUpdate="0" expression="" field="E5_OFF10"/>
+        <default applyOnUpdate="0" expression="" field="D1B"/>
+        <default applyOnUpdate="0" expression="" field="D1C"/>
+        <default applyOnUpdate="0" expression="" field="D2A_JPHH"/>
+        <default applyOnUpdate="0" expression="" field="D2C_TRPMX1"/>
+        <default applyOnUpdate="0" expression="" field="D3a"/>
+        <default applyOnUpdate="0" expression="" field="D3aao"/>
+        <default applyOnUpdate="0" expression="" field="D3amm"/>
+        <default applyOnUpdate="0" expression="" field="D4a"/>
+        <default applyOnUpdate="0" expression="" field="D4b025"/>
+        <default applyOnUpdate="0" expression="" field="D5ar"/>
+        <default applyOnUpdate="0" expression="" field="D5br"/>
+        <default applyOnUpdate="0" expression="" field="PctWhtAln"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="GISJOIN"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="STATEFP"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="COUNTYFP"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="GEOID"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="YEAR"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="STUSAB"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="COUNTY"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="TRACTA"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="BLKGRPA"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="GEOID_2"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="NAME_E"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="ALWTE010"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="ALWTE011"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="ALWTE012"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="TotalPop"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctMale"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctFemale"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="Pct18_35"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctHisp"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctDrvAlon"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctComm20"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctComm45"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctDegree"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctEngOnly"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="Pct100k"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctEmploy"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctOcc"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctSFH"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="Pct2PlVeh"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctHiJobs"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctLowJobs"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctJbs3054"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="LODES_Join"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="Jobs"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="Young"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="MidAge"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="Older"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="Low"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="Middle"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="High"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="OBJECTID"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="GEOID10"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="CSA"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="CSA_Name"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="CBSA"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="CBSA_Name"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="CBSA_EMP"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="CBSA_POP"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="CBSA_WRK"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="E5_OFF10"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D1B"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D1C"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D2A_JPHH"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D2C_TRPMX1"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D3a"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D3aao"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D3amm"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D4a"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D4b025"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D5ar"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D5br"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctWhtAln"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="GISJOIN"/>
+        <constraint desc="" exp="" field="STATEFP"/>
+        <constraint desc="" exp="" field="COUNTYFP"/>
+        <constraint desc="" exp="" field="GEOID"/>
+        <constraint desc="" exp="" field="YEAR"/>
+        <constraint desc="" exp="" field="STUSAB"/>
+        <constraint desc="" exp="" field="COUNTY"/>
+        <constraint desc="" exp="" field="TRACTA"/>
+        <constraint desc="" exp="" field="BLKGRPA"/>
+        <constraint desc="" exp="" field="GEOID_2"/>
+        <constraint desc="" exp="" field="NAME_E"/>
+        <constraint desc="" exp="" field="ALWTE010"/>
+        <constraint desc="" exp="" field="ALWTE011"/>
+        <constraint desc="" exp="" field="ALWTE012"/>
+        <constraint desc="" exp="" field="TotalPop"/>
+        <constraint desc="" exp="" field="PctMale"/>
+        <constraint desc="" exp="" field="PctFemale"/>
+        <constraint desc="" exp="" field="Pct18_35"/>
+        <constraint desc="" exp="" field="PctHisp"/>
+        <constraint desc="" exp="" field="PctDrvAlon"/>
+        <constraint desc="" exp="" field="PctComm20"/>
+        <constraint desc="" exp="" field="PctComm45"/>
+        <constraint desc="" exp="" field="PctDegree"/>
+        <constraint desc="" exp="" field="PctEngOnly"/>
+        <constraint desc="" exp="" field="Pct100k"/>
+        <constraint desc="" exp="" field="PctEmploy"/>
+        <constraint desc="" exp="" field="PctOcc"/>
+        <constraint desc="" exp="" field="PctSFH"/>
+        <constraint desc="" exp="" field="Pct2PlVeh"/>
+        <constraint desc="" exp="" field="PctHiJobs"/>
+        <constraint desc="" exp="" field="PctLowJobs"/>
+        <constraint desc="" exp="" field="PctJbs3054"/>
+        <constraint desc="" exp="" field="LODES_Join"/>
+        <constraint desc="" exp="" field="Jobs"/>
+        <constraint desc="" exp="" field="Young"/>
+        <constraint desc="" exp="" field="MidAge"/>
+        <constraint desc="" exp="" field="Older"/>
+        <constraint desc="" exp="" field="Low"/>
+        <constraint desc="" exp="" field="Middle"/>
+        <constraint desc="" exp="" field="High"/>
+        <constraint desc="" exp="" field="OBJECTID"/>
+        <constraint desc="" exp="" field="GEOID10"/>
+        <constraint desc="" exp="" field="CSA"/>
+        <constraint desc="" exp="" field="CSA_Name"/>
+        <constraint desc="" exp="" field="CBSA"/>
+        <constraint desc="" exp="" field="CBSA_Name"/>
+        <constraint desc="" exp="" field="CBSA_EMP"/>
+        <constraint desc="" exp="" field="CBSA_POP"/>
+        <constraint desc="" exp="" field="CBSA_WRK"/>
+        <constraint desc="" exp="" field="E5_OFF10"/>
+        <constraint desc="" exp="" field="D1B"/>
+        <constraint desc="" exp="" field="D1C"/>
+        <constraint desc="" exp="" field="D2A_JPHH"/>
+        <constraint desc="" exp="" field="D2C_TRPMX1"/>
+        <constraint desc="" exp="" field="D3a"/>
+        <constraint desc="" exp="" field="D3aao"/>
+        <constraint desc="" exp="" field="D3amm"/>
+        <constraint desc="" exp="" field="D4a"/>
+        <constraint desc="" exp="" field="D4b025"/>
+        <constraint desc="" exp="" field="D5ar"/>
+        <constraint desc="" exp="" field="D5br"/>
+        <constraint desc="" exp="" field="PctWhtAln"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="&quot;STUSAB&quot;" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column hidden="0" type="field" width="-1" name="GISJOIN"/>
+          <column hidden="0" type="field" width="-1" name="STATEFP"/>
+          <column hidden="0" type="field" width="-1" name="COUNTYFP"/>
+          <column hidden="0" type="field" width="-1" name="GEOID"/>
+          <column hidden="0" type="field" width="-1" name="YEAR"/>
+          <column hidden="0" type="field" width="-1" name="STUSAB"/>
+          <column hidden="0" type="field" width="-1" name="COUNTY"/>
+          <column hidden="0" type="field" width="-1" name="TRACTA"/>
+          <column hidden="0" type="field" width="-1" name="BLKGRPA"/>
+          <column hidden="0" type="field" width="-1" name="GEOID_2"/>
+          <column hidden="0" type="field" width="-1" name="NAME_E"/>
+          <column hidden="0" type="field" width="-1" name="ALWTE010"/>
+          <column hidden="0" type="field" width="-1" name="ALWTE011"/>
+          <column hidden="0" type="field" width="-1" name="ALWTE012"/>
+          <column hidden="0" type="field" width="-1" name="TotalPop"/>
+          <column hidden="0" type="field" width="-1" name="PctMale"/>
+          <column hidden="0" type="field" width="-1" name="PctFemale"/>
+          <column hidden="0" type="field" width="-1" name="Pct18_35"/>
+          <column hidden="0" type="field" width="-1" name="PctHisp"/>
+          <column hidden="0" type="field" width="-1" name="PctDrvAlon"/>
+          <column hidden="0" type="field" width="-1" name="PctComm20"/>
+          <column hidden="0" type="field" width="-1" name="PctComm45"/>
+          <column hidden="0" type="field" width="-1" name="PctDegree"/>
+          <column hidden="0" type="field" width="-1" name="PctEngOnly"/>
+          <column hidden="0" type="field" width="-1" name="Pct100k"/>
+          <column hidden="0" type="field" width="-1" name="PctEmploy"/>
+          <column hidden="0" type="field" width="-1" name="PctOcc"/>
+          <column hidden="0" type="field" width="-1" name="PctSFH"/>
+          <column hidden="0" type="field" width="-1" name="Pct2PlVeh"/>
+          <column hidden="0" type="field" width="-1" name="PctHiJobs"/>
+          <column hidden="0" type="field" width="-1" name="PctLowJobs"/>
+          <column hidden="0" type="field" width="-1" name="PctJbs3054"/>
+          <column hidden="0" type="field" width="-1" name="LODES_Join"/>
+          <column hidden="0" type="field" width="-1" name="Jobs"/>
+          <column hidden="0" type="field" width="-1" name="Young"/>
+          <column hidden="0" type="field" width="-1" name="MidAge"/>
+          <column hidden="0" type="field" width="-1" name="Older"/>
+          <column hidden="0" type="field" width="-1" name="Low"/>
+          <column hidden="0" type="field" width="-1" name="Middle"/>
+          <column hidden="0" type="field" width="-1" name="High"/>
+          <column hidden="0" type="field" width="-1" name="OBJECTID"/>
+          <column hidden="0" type="field" width="-1" name="GEOID10"/>
+          <column hidden="0" type="field" width="-1" name="CSA"/>
+          <column hidden="0" type="field" width="-1" name="CSA_Name"/>
+          <column hidden="0" type="field" width="-1" name="CBSA"/>
+          <column hidden="0" type="field" width="-1" name="CBSA_Name"/>
+          <column hidden="0" type="field" width="-1" name="CBSA_EMP"/>
+          <column hidden="0" type="field" width="-1" name="CBSA_POP"/>
+          <column hidden="0" type="field" width="-1" name="CBSA_WRK"/>
+          <column hidden="0" type="field" width="-1" name="E5_OFF10"/>
+          <column hidden="0" type="field" width="-1" name="D1B"/>
+          <column hidden="0" type="field" width="-1" name="D1C"/>
+          <column hidden="0" type="field" width="-1" name="D2A_JPHH"/>
+          <column hidden="0" type="field" width="-1" name="D2C_TRPMX1"/>
+          <column hidden="0" type="field" width="-1" name="D3a"/>
+          <column hidden="0" type="field" width="-1" name="D3aao"/>
+          <column hidden="0" type="field" width="-1" name="D3amm"/>
+          <column hidden="0" type="field" width="-1" name="D4a"/>
+          <column hidden="0" type="field" width="-1" name="D4b025"/>
+          <column hidden="0" type="field" width="-1" name="D5ar"/>
+          <column hidden="0" type="field" width="-1" name="D5br"/>
+          <column hidden="0" type="field" width="-1" name="PctWhtAln"/>
+          <column hidden="1" type="actions" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"NAME_E"</previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" labelsEnabled="0" simplifyMaxScale="1" autoRefreshTime="0" wkbType="MultiPolygon" maxScale="0" refreshOnNotifyEnabled="0" readOnly="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" simplifyAlgorithm="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" minScale="100000000" legendPlaceholderImage="" simplifyLocal="1" geometry="Polygon" autoRefreshMode="Disabled" symbologyReferenceScale="-1" type="vector">
+      <extent>
+        <xmin>240435.8556077862449456</xmin>
+        <ymin>4339097.1165241114795208</ymin>
+        <xmax>304332.74536825041286647</xmax>
+        <ymax>4430842.21156666614115238</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-120.04004032325376272</xmin>
+        <ymin>39.16239120730404721</ymin>
+        <xmax>-119.26525436460075014</xmax>
+        <ymax>40.00511748874570372</ymax>
+      </wgs84extent>
+      <id>Reprojected_db12306a_7cd6_471c_86b4_800c993c95bf</id>
+      <datasource>./Lab1_Data/RenoAreaBGs.shp|layername=RenoAreaBGs</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Reprojected</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>PROJCRS["NAD83 / UTM zone 11N",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["UTM zone 11N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-117,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["North America - between 120°W and 114°W - onshore and offshore. Canada - Alberta; British Columbia; Northwest Territories; Nunavut. United States (USA) - California; Idaho; Nevada, Oregon; Washington."],BBOX[30.88,-120,83.5,-114]],ID["EPSG",26911]]</wkt>
+          <proj4>+proj=utm +zone=11 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2288</srsid>
+          <srid>26911</srid>
+          <authid>EPSG:26911</authid>
+          <description>NAD83 / UTM zone 11N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>PROJCRS["NAD83 / UTM zone 11N",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["UTM zone 11N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-117,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["North America - between 120°W and 114°W - onshore and offshore. Canada - Alberta; British Columbia; Northwest Territories; Nunavut. United States (USA) - California; Idaho; Nevada, Oregon; Washington."],BBOX[30.88,-120,83.5,-114]],ID["EPSG",26911]]</wkt>
+            <proj4>+proj=utm +zone=11 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+            <srsid>2288</srsid>
+            <srid>26911</srid>
+            <authid>EPSG:26911</authid>
+            <description>NAD83 / UTM zone 11N</description>
+            <projectionacronym>utm</projectionacronym>
+            <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal accumulate="0" durationUnit="min" limitMode="0" startField="" fixedDuration="0" mode="0" endField="" durationField="" enabled="0" startExpression="" endExpression="">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation clamping="Terrain" extrusionEnabled="0" type="IndividualFeatures" respectLayerSymbol="1" zscale="1" showMarkerSymbolInSurfacePlots="0" binding="Centroid" symbology="Line" extrusion="0" zoffset="0">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol force_rhr="0" type="line" alpha="1" name="" clip_to_extent="1" is_animated="0" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{6b3c4193-b2e4-4ef5-8420-6c126e2351f2}" class="SimpleLine" pass="0" locked="0" enabled="1">
+              <Option type="Map">
+                <Option type="QString" value="0" name="align_dash_pattern"/>
+                <Option type="QString" value="square" name="capstyle"/>
+                <Option type="QString" value="5;2" name="customdash"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale"/>
+                <Option type="QString" value="MM" name="customdash_unit"/>
+                <Option type="QString" value="0" name="dash_pattern_offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="dash_pattern_offset_unit"/>
+                <Option type="QString" value="0" name="draw_inside_polygon"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="190,178,151,255" name="line_color"/>
+                <Option type="QString" value="solid" name="line_style"/>
+                <Option type="QString" value="0.6" name="line_width"/>
+                <Option type="QString" value="MM" name="line_width_unit"/>
+                <Option type="QString" value="0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="0" name="ring_filter"/>
+                <Option type="QString" value="0" name="trim_distance_end"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale"/>
+                <Option type="QString" value="MM" name="trim_distance_end_unit"/>
+                <Option type="QString" value="0" name="trim_distance_start"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale"/>
+                <Option type="QString" value="MM" name="trim_distance_start_unit"/>
+                <Option type="QString" value="0" name="tweak_dash_pattern_on_corners"/>
+                <Option type="QString" value="0" name="use_custom_dash"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="width_map_unit_scale"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol force_rhr="0" type="fill" alpha="1" name="" clip_to_extent="1" is_animated="0" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{3c305162-fd60-41dc-939d-d7be8fb00fdd}" class="SimpleFill" pass="0" locked="0" enabled="1">
+              <Option type="Map">
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
+                <Option type="QString" value="190,178,151,255" name="color"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="136,127,108,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.2" name="outline_width"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="solid" name="style"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol force_rhr="0" type="marker" alpha="1" name="" clip_to_extent="1" is_animated="0" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{9bc20ded-91e7-4dfa-b8d9-2291fff8272a}" class="SimpleMarker" pass="0" locked="0" enabled="1">
+              <Option type="Map">
+                <Option type="QString" value="0" name="angle"/>
+                <Option type="QString" value="square" name="cap_style"/>
+                <Option type="QString" value="190,178,151,255" name="color"/>
+                <Option type="QString" value="1" name="horizontal_anchor_point"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="diamond" name="name"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="136,127,108,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.2" name="outline_width"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="diameter" name="scale_method"/>
+                <Option type="QString" value="3" name="size"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+                <Option type="QString" value="MM" name="size_unit"/>
+                <Option type="QString" value="1" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 symbollevels="0" type="singleSymbol" referencescale="-1" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" type="fill" alpha="1" name="0" clip_to_extent="1" is_animated="0" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{5ca50ff9-4784-4194-9fc6-14745fe6f2a7}" class="SimpleFill" pass="0" locked="0" enabled="1">
+              <Option type="Map">
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
+                <Option type="QString" value="145,82,45,255" name="color"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="35,35,35,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.26" name="outline_width"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="solid" name="style"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <selection mode="Default">
+        <selectionColor invalid="1"/>
+      </selection>
+      <customproperties>
+        <Option type="Map">
+          <Option type="bool" value="false" name="OnConvertFormatRegeneratePrimaryKey"/>
+        </Option>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="GISJOIN" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STATEFP" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTYFP" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEOID" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="YEAR" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STUSAB" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTY" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TRACTA" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BLKGRPA" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEOID_2" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_E" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ALWTE010" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ALWTE011" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ALWTE012" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TotalPop" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctMale" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctFemale" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Pct18_35" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctHisp" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctDrvAlon" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctComm20" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctComm45" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctDegree" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctEngOnly" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Pct100k" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctEmploy" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctOcc" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctSFH" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Pct2PlVeh" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctHiJobs" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctLowJobs" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctJbs3054" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LODES_Join" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Jobs" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Young" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MidAge" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Older" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Low" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Middle" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="High" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OBJECTID" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEOID10" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CSA" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CSA_Name" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CBSA" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CBSA_Name" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CBSA_EMP" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CBSA_POP" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CBSA_WRK" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="E5_OFF10" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D1B" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D1C" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D2A_JPHH" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D2C_TRPMX1" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D3a" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D3aao" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D3amm" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D4a" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D4b025" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D5ar" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D5br" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PctWhtAln" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="GISJOIN"/>
+        <alias index="1" name="" field="STATEFP"/>
+        <alias index="2" name="" field="COUNTYFP"/>
+        <alias index="3" name="" field="GEOID"/>
+        <alias index="4" name="" field="YEAR"/>
+        <alias index="5" name="" field="STUSAB"/>
+        <alias index="6" name="" field="COUNTY"/>
+        <alias index="7" name="" field="TRACTA"/>
+        <alias index="8" name="" field="BLKGRPA"/>
+        <alias index="9" name="" field="GEOID_2"/>
+        <alias index="10" name="" field="NAME_E"/>
+        <alias index="11" name="" field="ALWTE010"/>
+        <alias index="12" name="" field="ALWTE011"/>
+        <alias index="13" name="" field="ALWTE012"/>
+        <alias index="14" name="" field="TotalPop"/>
+        <alias index="15" name="" field="PctMale"/>
+        <alias index="16" name="" field="PctFemale"/>
+        <alias index="17" name="" field="Pct18_35"/>
+        <alias index="18" name="" field="PctHisp"/>
+        <alias index="19" name="" field="PctDrvAlon"/>
+        <alias index="20" name="" field="PctComm20"/>
+        <alias index="21" name="" field="PctComm45"/>
+        <alias index="22" name="" field="PctDegree"/>
+        <alias index="23" name="" field="PctEngOnly"/>
+        <alias index="24" name="" field="Pct100k"/>
+        <alias index="25" name="" field="PctEmploy"/>
+        <alias index="26" name="" field="PctOcc"/>
+        <alias index="27" name="" field="PctSFH"/>
+        <alias index="28" name="" field="Pct2PlVeh"/>
+        <alias index="29" name="" field="PctHiJobs"/>
+        <alias index="30" name="" field="PctLowJobs"/>
+        <alias index="31" name="" field="PctJbs3054"/>
+        <alias index="32" name="" field="LODES_Join"/>
+        <alias index="33" name="" field="Jobs"/>
+        <alias index="34" name="" field="Young"/>
+        <alias index="35" name="" field="MidAge"/>
+        <alias index="36" name="" field="Older"/>
+        <alias index="37" name="" field="Low"/>
+        <alias index="38" name="" field="Middle"/>
+        <alias index="39" name="" field="High"/>
+        <alias index="40" name="" field="OBJECTID"/>
+        <alias index="41" name="" field="GEOID10"/>
+        <alias index="42" name="" field="CSA"/>
+        <alias index="43" name="" field="CSA_Name"/>
+        <alias index="44" name="" field="CBSA"/>
+        <alias index="45" name="" field="CBSA_Name"/>
+        <alias index="46" name="" field="CBSA_EMP"/>
+        <alias index="47" name="" field="CBSA_POP"/>
+        <alias index="48" name="" field="CBSA_WRK"/>
+        <alias index="49" name="" field="E5_OFF10"/>
+        <alias index="50" name="" field="D1B"/>
+        <alias index="51" name="" field="D1C"/>
+        <alias index="52" name="" field="D2A_JPHH"/>
+        <alias index="53" name="" field="D2C_TRPMX1"/>
+        <alias index="54" name="" field="D3a"/>
+        <alias index="55" name="" field="D3aao"/>
+        <alias index="56" name="" field="D3amm"/>
+        <alias index="57" name="" field="D4a"/>
+        <alias index="58" name="" field="D4b025"/>
+        <alias index="59" name="" field="D5ar"/>
+        <alias index="60" name="" field="D5br"/>
+        <alias index="61" name="" field="PctWhtAln"/>
+      </aliases>
+      <splitPolicies>
+        <policy policy="Duplicate" field="GISJOIN"/>
+        <policy policy="Duplicate" field="STATEFP"/>
+        <policy policy="Duplicate" field="COUNTYFP"/>
+        <policy policy="Duplicate" field="GEOID"/>
+        <policy policy="Duplicate" field="YEAR"/>
+        <policy policy="Duplicate" field="STUSAB"/>
+        <policy policy="Duplicate" field="COUNTY"/>
+        <policy policy="Duplicate" field="TRACTA"/>
+        <policy policy="Duplicate" field="BLKGRPA"/>
+        <policy policy="Duplicate" field="GEOID_2"/>
+        <policy policy="Duplicate" field="NAME_E"/>
+        <policy policy="Duplicate" field="ALWTE010"/>
+        <policy policy="Duplicate" field="ALWTE011"/>
+        <policy policy="Duplicate" field="ALWTE012"/>
+        <policy policy="Duplicate" field="TotalPop"/>
+        <policy policy="Duplicate" field="PctMale"/>
+        <policy policy="Duplicate" field="PctFemale"/>
+        <policy policy="Duplicate" field="Pct18_35"/>
+        <policy policy="Duplicate" field="PctHisp"/>
+        <policy policy="Duplicate" field="PctDrvAlon"/>
+        <policy policy="Duplicate" field="PctComm20"/>
+        <policy policy="Duplicate" field="PctComm45"/>
+        <policy policy="Duplicate" field="PctDegree"/>
+        <policy policy="Duplicate" field="PctEngOnly"/>
+        <policy policy="Duplicate" field="Pct100k"/>
+        <policy policy="Duplicate" field="PctEmploy"/>
+        <policy policy="Duplicate" field="PctOcc"/>
+        <policy policy="Duplicate" field="PctSFH"/>
+        <policy policy="Duplicate" field="Pct2PlVeh"/>
+        <policy policy="Duplicate" field="PctHiJobs"/>
+        <policy policy="Duplicate" field="PctLowJobs"/>
+        <policy policy="Duplicate" field="PctJbs3054"/>
+        <policy policy="Duplicate" field="LODES_Join"/>
+        <policy policy="Duplicate" field="Jobs"/>
+        <policy policy="Duplicate" field="Young"/>
+        <policy policy="Duplicate" field="MidAge"/>
+        <policy policy="Duplicate" field="Older"/>
+        <policy policy="Duplicate" field="Low"/>
+        <policy policy="Duplicate" field="Middle"/>
+        <policy policy="Duplicate" field="High"/>
+        <policy policy="Duplicate" field="OBJECTID"/>
+        <policy policy="Duplicate" field="GEOID10"/>
+        <policy policy="Duplicate" field="CSA"/>
+        <policy policy="Duplicate" field="CSA_Name"/>
+        <policy policy="Duplicate" field="CBSA"/>
+        <policy policy="Duplicate" field="CBSA_Name"/>
+        <policy policy="Duplicate" field="CBSA_EMP"/>
+        <policy policy="Duplicate" field="CBSA_POP"/>
+        <policy policy="Duplicate" field="CBSA_WRK"/>
+        <policy policy="Duplicate" field="E5_OFF10"/>
+        <policy policy="Duplicate" field="D1B"/>
+        <policy policy="Duplicate" field="D1C"/>
+        <policy policy="Duplicate" field="D2A_JPHH"/>
+        <policy policy="Duplicate" field="D2C_TRPMX1"/>
+        <policy policy="Duplicate" field="D3a"/>
+        <policy policy="Duplicate" field="D3aao"/>
+        <policy policy="Duplicate" field="D3amm"/>
+        <policy policy="Duplicate" field="D4a"/>
+        <policy policy="Duplicate" field="D4b025"/>
+        <policy policy="Duplicate" field="D5ar"/>
+        <policy policy="Duplicate" field="D5br"/>
+        <policy policy="Duplicate" field="PctWhtAln"/>
+      </splitPolicies>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="GISJOIN"/>
+        <default applyOnUpdate="0" expression="" field="STATEFP"/>
+        <default applyOnUpdate="0" expression="" field="COUNTYFP"/>
+        <default applyOnUpdate="0" expression="" field="GEOID"/>
+        <default applyOnUpdate="0" expression="" field="YEAR"/>
+        <default applyOnUpdate="0" expression="" field="STUSAB"/>
+        <default applyOnUpdate="0" expression="" field="COUNTY"/>
+        <default applyOnUpdate="0" expression="" field="TRACTA"/>
+        <default applyOnUpdate="0" expression="" field="BLKGRPA"/>
+        <default applyOnUpdate="0" expression="" field="GEOID_2"/>
+        <default applyOnUpdate="0" expression="" field="NAME_E"/>
+        <default applyOnUpdate="0" expression="" field="ALWTE010"/>
+        <default applyOnUpdate="0" expression="" field="ALWTE011"/>
+        <default applyOnUpdate="0" expression="" field="ALWTE012"/>
+        <default applyOnUpdate="0" expression="" field="TotalPop"/>
+        <default applyOnUpdate="0" expression="" field="PctMale"/>
+        <default applyOnUpdate="0" expression="" field="PctFemale"/>
+        <default applyOnUpdate="0" expression="" field="Pct18_35"/>
+        <default applyOnUpdate="0" expression="" field="PctHisp"/>
+        <default applyOnUpdate="0" expression="" field="PctDrvAlon"/>
+        <default applyOnUpdate="0" expression="" field="PctComm20"/>
+        <default applyOnUpdate="0" expression="" field="PctComm45"/>
+        <default applyOnUpdate="0" expression="" field="PctDegree"/>
+        <default applyOnUpdate="0" expression="" field="PctEngOnly"/>
+        <default applyOnUpdate="0" expression="" field="Pct100k"/>
+        <default applyOnUpdate="0" expression="" field="PctEmploy"/>
+        <default applyOnUpdate="0" expression="" field="PctOcc"/>
+        <default applyOnUpdate="0" expression="" field="PctSFH"/>
+        <default applyOnUpdate="0" expression="" field="Pct2PlVeh"/>
+        <default applyOnUpdate="0" expression="" field="PctHiJobs"/>
+        <default applyOnUpdate="0" expression="" field="PctLowJobs"/>
+        <default applyOnUpdate="0" expression="" field="PctJbs3054"/>
+        <default applyOnUpdate="0" expression="" field="LODES_Join"/>
+        <default applyOnUpdate="0" expression="" field="Jobs"/>
+        <default applyOnUpdate="0" expression="" field="Young"/>
+        <default applyOnUpdate="0" expression="" field="MidAge"/>
+        <default applyOnUpdate="0" expression="" field="Older"/>
+        <default applyOnUpdate="0" expression="" field="Low"/>
+        <default applyOnUpdate="0" expression="" field="Middle"/>
+        <default applyOnUpdate="0" expression="" field="High"/>
+        <default applyOnUpdate="0" expression="" field="OBJECTID"/>
+        <default applyOnUpdate="0" expression="" field="GEOID10"/>
+        <default applyOnUpdate="0" expression="" field="CSA"/>
+        <default applyOnUpdate="0" expression="" field="CSA_Name"/>
+        <default applyOnUpdate="0" expression="" field="CBSA"/>
+        <default applyOnUpdate="0" expression="" field="CBSA_Name"/>
+        <default applyOnUpdate="0" expression="" field="CBSA_EMP"/>
+        <default applyOnUpdate="0" expression="" field="CBSA_POP"/>
+        <default applyOnUpdate="0" expression="" field="CBSA_WRK"/>
+        <default applyOnUpdate="0" expression="" field="E5_OFF10"/>
+        <default applyOnUpdate="0" expression="" field="D1B"/>
+        <default applyOnUpdate="0" expression="" field="D1C"/>
+        <default applyOnUpdate="0" expression="" field="D2A_JPHH"/>
+        <default applyOnUpdate="0" expression="" field="D2C_TRPMX1"/>
+        <default applyOnUpdate="0" expression="" field="D3a"/>
+        <default applyOnUpdate="0" expression="" field="D3aao"/>
+        <default applyOnUpdate="0" expression="" field="D3amm"/>
+        <default applyOnUpdate="0" expression="" field="D4a"/>
+        <default applyOnUpdate="0" expression="" field="D4b025"/>
+        <default applyOnUpdate="0" expression="" field="D5ar"/>
+        <default applyOnUpdate="0" expression="" field="D5br"/>
+        <default applyOnUpdate="0" expression="" field="PctWhtAln"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="GISJOIN"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="STATEFP"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="COUNTYFP"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="GEOID"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="YEAR"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="STUSAB"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="COUNTY"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="TRACTA"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="BLKGRPA"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="GEOID_2"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="NAME_E"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="ALWTE010"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="ALWTE011"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="ALWTE012"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="TotalPop"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctMale"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctFemale"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="Pct18_35"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctHisp"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctDrvAlon"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctComm20"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctComm45"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctDegree"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctEngOnly"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="Pct100k"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctEmploy"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctOcc"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctSFH"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="Pct2PlVeh"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctHiJobs"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctLowJobs"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctJbs3054"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="LODES_Join"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="Jobs"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="Young"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="MidAge"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="Older"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="Low"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="Middle"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="High"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="OBJECTID"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="GEOID10"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="CSA"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="CSA_Name"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="CBSA"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="CBSA_Name"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="CBSA_EMP"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="CBSA_POP"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="CBSA_WRK"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="E5_OFF10"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D1B"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D1C"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D2A_JPHH"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D2C_TRPMX1"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D3a"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D3aao"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D3amm"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D4a"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D4b025"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D5ar"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="D5br"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="PctWhtAln"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="GISJOIN"/>
+        <constraint desc="" exp="" field="STATEFP"/>
+        <constraint desc="" exp="" field="COUNTYFP"/>
+        <constraint desc="" exp="" field="GEOID"/>
+        <constraint desc="" exp="" field="YEAR"/>
+        <constraint desc="" exp="" field="STUSAB"/>
+        <constraint desc="" exp="" field="COUNTY"/>
+        <constraint desc="" exp="" field="TRACTA"/>
+        <constraint desc="" exp="" field="BLKGRPA"/>
+        <constraint desc="" exp="" field="GEOID_2"/>
+        <constraint desc="" exp="" field="NAME_E"/>
+        <constraint desc="" exp="" field="ALWTE010"/>
+        <constraint desc="" exp="" field="ALWTE011"/>
+        <constraint desc="" exp="" field="ALWTE012"/>
+        <constraint desc="" exp="" field="TotalPop"/>
+        <constraint desc="" exp="" field="PctMale"/>
+        <constraint desc="" exp="" field="PctFemale"/>
+        <constraint desc="" exp="" field="Pct18_35"/>
+        <constraint desc="" exp="" field="PctHisp"/>
+        <constraint desc="" exp="" field="PctDrvAlon"/>
+        <constraint desc="" exp="" field="PctComm20"/>
+        <constraint desc="" exp="" field="PctComm45"/>
+        <constraint desc="" exp="" field="PctDegree"/>
+        <constraint desc="" exp="" field="PctEngOnly"/>
+        <constraint desc="" exp="" field="Pct100k"/>
+        <constraint desc="" exp="" field="PctEmploy"/>
+        <constraint desc="" exp="" field="PctOcc"/>
+        <constraint desc="" exp="" field="PctSFH"/>
+        <constraint desc="" exp="" field="Pct2PlVeh"/>
+        <constraint desc="" exp="" field="PctHiJobs"/>
+        <constraint desc="" exp="" field="PctLowJobs"/>
+        <constraint desc="" exp="" field="PctJbs3054"/>
+        <constraint desc="" exp="" field="LODES_Join"/>
+        <constraint desc="" exp="" field="Jobs"/>
+        <constraint desc="" exp="" field="Young"/>
+        <constraint desc="" exp="" field="MidAge"/>
+        <constraint desc="" exp="" field="Older"/>
+        <constraint desc="" exp="" field="Low"/>
+        <constraint desc="" exp="" field="Middle"/>
+        <constraint desc="" exp="" field="High"/>
+        <constraint desc="" exp="" field="OBJECTID"/>
+        <constraint desc="" exp="" field="GEOID10"/>
+        <constraint desc="" exp="" field="CSA"/>
+        <constraint desc="" exp="" field="CSA_Name"/>
+        <constraint desc="" exp="" field="CBSA"/>
+        <constraint desc="" exp="" field="CBSA_Name"/>
+        <constraint desc="" exp="" field="CBSA_EMP"/>
+        <constraint desc="" exp="" field="CBSA_POP"/>
+        <constraint desc="" exp="" field="CBSA_WRK"/>
+        <constraint desc="" exp="" field="E5_OFF10"/>
+        <constraint desc="" exp="" field="D1B"/>
+        <constraint desc="" exp="" field="D1C"/>
+        <constraint desc="" exp="" field="D2A_JPHH"/>
+        <constraint desc="" exp="" field="D2C_TRPMX1"/>
+        <constraint desc="" exp="" field="D3a"/>
+        <constraint desc="" exp="" field="D3aao"/>
+        <constraint desc="" exp="" field="D3amm"/>
+        <constraint desc="" exp="" field="D4a"/>
+        <constraint desc="" exp="" field="D4b025"/>
+        <constraint desc="" exp="" field="D5ar"/>
+        <constraint desc="" exp="" field="D5br"/>
+        <constraint desc="" exp="" field="PctWhtAln"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" labelsEnabled="0" simplifyMaxScale="1" autoRefreshTime="0" wkbType="MultiLineString" maxScale="0" refreshOnNotifyEnabled="0" readOnly="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" simplifyAlgorithm="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" minScale="100000000" legendPlaceholderImage="" simplifyLocal="1" geometry="Line" autoRefreshMode="Disabled" symbologyReferenceScale="-1" type="vector">
+      <extent>
+        <xmin>240540.82320000231266022</xmin>
+        <ymin>3880215.7971000038087368</ymin>
+        <xmax>763121.50000000151339918</xmax>
+        <ymax>4652052.00000000186264515</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-120.13164116661036473</xmin>
+        <ymin>35.03038413831395559</ymin>
+        <xmax>-113.82422018299971</xmax>
+        <ymax>42.02049498432705832</ymax>
+      </wgs84extent>
+      <id>TRINA_Segments_ad030092_672e_46a7_bddc_944382e658c1</id>
+      <datasource>./Lab1_Data/TRINA_Segments.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>TRINA_Segments</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>PROJCRS["NAD83 / UTM zone 11N",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["UTM zone 11N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-117,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["North America - between 120°W and 114°W - onshore and offshore. Canada - Alberta; British Columbia; Northwest Territories; Nunavut. United States (USA) - California; Idaho; Nevada, Oregon; Washington."],BBOX[30.88,-120,83.5,-114]],ID["EPSG",26911]]</wkt>
+          <proj4>+proj=utm +zone=11 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2288</srsid>
+          <srid>26911</srid>
+          <authid>EPSG:26911</authid>
+          <description>NAD83 / UTM zone 11N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier>PROD.DBO.TRINA_AADT_ROUTEEVENTS</identifier>
+        <parentidentifier></parentidentifier>
+        <language>ENG</language>
+        <type>dataset</type>
+        <title>PROD.DBO.TRINA_AADT_ROUTEEVENTS</title>
+        <abstract></abstract>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>PROJCRS["NAD83 / UTM zone 11N",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["UTM zone 11N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-117,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["North America - between 120°W and 114°W - onshore and offshore. Canada - Alberta; British Columbia; Northwest Territories; Nunavut. United States (USA) - California; Idaho; Nevada, Oregon; Washington."],BBOX[30.88,-120,83.5,-114]],ID["EPSG",26911]]</wkt>
+            <proj4>+proj=utm +zone=11 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+            <srsid>2288</srsid>
+            <srid>26911</srid>
+            <authid>EPSG:26911</authid>
+            <description>NAD83 / UTM zone 11N</description>
+            <projectionacronym>utm</projectionacronym>
+            <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minx="-120.1316410000000019" dimensions="2" maxz="0" maxx="-113.82421999999999684" maxy="42.02049699999999888" crs="EPSG:26911" miny="35.03038399999999797" minz="0"/>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal accumulate="0" durationUnit="min" limitMode="0" startField="" fixedDuration="0" mode="0" endField="" durationField="" enabled="0" startExpression="" endExpression="">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation clamping="Terrain" extrusionEnabled="0" type="IndividualFeatures" respectLayerSymbol="1" zscale="1" showMarkerSymbolInSurfacePlots="0" binding="Centroid" symbology="Line" extrusion="0" zoffset="0">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol force_rhr="0" type="line" alpha="1" name="" clip_to_extent="1" is_animated="0" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{dcfe8141-f784-4a98-b515-eeb66a94becd}" class="SimpleLine" pass="0" locked="0" enabled="1">
+              <Option type="Map">
+                <Option type="QString" value="0" name="align_dash_pattern"/>
+                <Option type="QString" value="square" name="capstyle"/>
+                <Option type="QString" value="5;2" name="customdash"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale"/>
+                <Option type="QString" value="MM" name="customdash_unit"/>
+                <Option type="QString" value="0" name="dash_pattern_offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="dash_pattern_offset_unit"/>
+                <Option type="QString" value="0" name="draw_inside_polygon"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="152,125,183,255" name="line_color"/>
+                <Option type="QString" value="solid" name="line_style"/>
+                <Option type="QString" value="0.6" name="line_width"/>
+                <Option type="QString" value="MM" name="line_width_unit"/>
+                <Option type="QString" value="0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="0" name="ring_filter"/>
+                <Option type="QString" value="0" name="trim_distance_end"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale"/>
+                <Option type="QString" value="MM" name="trim_distance_end_unit"/>
+                <Option type="QString" value="0" name="trim_distance_start"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale"/>
+                <Option type="QString" value="MM" name="trim_distance_start_unit"/>
+                <Option type="QString" value="0" name="tweak_dash_pattern_on_corners"/>
+                <Option type="QString" value="0" name="use_custom_dash"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="width_map_unit_scale"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol force_rhr="0" type="fill" alpha="1" name="" clip_to_extent="1" is_animated="0" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{cb34b069-7855-4e51-b218-6a2c4ab7b572}" class="SimpleFill" pass="0" locked="0" enabled="1">
+              <Option type="Map">
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
+                <Option type="QString" value="152,125,183,255" name="color"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="109,89,131,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.2" name="outline_width"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="solid" name="style"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol force_rhr="0" type="marker" alpha="1" name="" clip_to_extent="1" is_animated="0" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{4b3c2d00-9bac-4e03-b568-05dabd72b6ac}" class="SimpleMarker" pass="0" locked="0" enabled="1">
+              <Option type="Map">
+                <Option type="QString" value="0" name="angle"/>
+                <Option type="QString" value="square" name="cap_style"/>
+                <Option type="QString" value="152,125,183,255" name="color"/>
+                <Option type="QString" value="1" name="horizontal_anchor_point"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="diamond" name="name"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="109,89,131,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.2" name="outline_width"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="diameter" name="scale_method"/>
+                <Option type="QString" value="3" name="size"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+                <Option type="QString" value="MM" name="size_unit"/>
+                <Option type="QString" value="1" name="vertical_anchor_point"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 symbollevels="0" type="singleSymbol" referencescale="-1" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" type="line" alpha="1" name="0" clip_to_extent="1" is_animated="0" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer id="{3dd11f0a-176e-40b1-a1d0-281db3ef672c}" class="SimpleLine" pass="0" locked="0" enabled="1">
+              <Option type="Map">
+                <Option type="QString" value="0" name="align_dash_pattern"/>
+                <Option type="QString" value="square" name="capstyle"/>
+                <Option type="QString" value="5;2" name="customdash"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale"/>
+                <Option type="QString" value="MM" name="customdash_unit"/>
+                <Option type="QString" value="0" name="dash_pattern_offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="dash_pattern_offset_unit"/>
+                <Option type="QString" value="0" name="draw_inside_polygon"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="190,207,80,255" name="line_color"/>
+                <Option type="QString" value="solid" name="line_style"/>
+                <Option type="QString" value="0.26" name="line_width"/>
+                <Option type="QString" value="MM" name="line_width_unit"/>
+                <Option type="QString" value="0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="0" name="ring_filter"/>
+                <Option type="QString" value="0" name="trim_distance_end"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale"/>
+                <Option type="QString" value="MM" name="trim_distance_end_unit"/>
+                <Option type="QString" value="0" name="trim_distance_start"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale"/>
+                <Option type="QString" value="MM" name="trim_distance_start_unit"/>
+                <Option type="QString" value="0" name="tweak_dash_pattern_on_corners"/>
+                <Option type="QString" value="0" name="use_custom_dash"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="width_map_unit_scale"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <selection mode="Default">
+        <selectionColor invalid="1"/>
+      </selection>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="OBJECTID_1" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="YEAR" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AADT" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GlobalID" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_Leng" configurationFlags="NoFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="OBJECTID_1"/>
+        <alias index="1" name="" field="YEAR"/>
+        <alias index="2" name="" field="AADT"/>
+        <alias index="3" name="" field="NAME"/>
+        <alias index="4" name="" field="GlobalID"/>
+        <alias index="5" name="" field="Shape_Leng"/>
+      </aliases>
+      <splitPolicies>
+        <policy policy="Duplicate" field="OBJECTID_1"/>
+        <policy policy="Duplicate" field="YEAR"/>
+        <policy policy="Duplicate" field="AADT"/>
+        <policy policy="Duplicate" field="NAME"/>
+        <policy policy="Duplicate" field="GlobalID"/>
+        <policy policy="Duplicate" field="Shape_Leng"/>
+      </splitPolicies>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="OBJECTID_1"/>
+        <default applyOnUpdate="0" expression="" field="YEAR"/>
+        <default applyOnUpdate="0" expression="" field="AADT"/>
+        <default applyOnUpdate="0" expression="" field="NAME"/>
+        <default applyOnUpdate="0" expression="" field="GlobalID"/>
+        <default applyOnUpdate="0" expression="" field="Shape_Leng"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="OBJECTID_1"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="YEAR"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="AADT"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="NAME"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="GlobalID"/>
+        <constraint exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0" field="Shape_Leng"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="OBJECTID_1"/>
+        <constraint desc="" exp="" field="YEAR"/>
+        <constraint desc="" exp="" field="AADT"/>
+        <constraint desc="" exp="" field="NAME"/>
+        <constraint desc="" exp="" field="GlobalID"/>
+        <constraint desc="" exp="" field="Shape_Leng"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="RenoSampleData_97639d34_36c7_4d9d_96ff_05187c3653c4"/>
+    <layer id="TRINA_Segments_ad030092_672e_46a7_bddc_944382e658c1"/>
+    <layer id="Reprojected_db12306a_7cd6_471c_86b4_800c993c95bf"/>
+  </layerorder>
+  <properties>
+    <Digitizing>
+      <AvoidIntersectionsMode type="int">0</AvoidIntersectionsMode>
+    </Digitizing>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">EPSG:7019</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawLabelMetrics type="bool">false</DrawLabelMetrics>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <dataDefinedServerProperties>
+    <Option type="Map">
+      <Option type="QString" value="" name="name"/>
+      <Option name="properties"/>
+      <Option type="QString" value="collection" name="type"/>
+    </Option>
+  </dataDefinedServerProperties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <dates>
+      <date type="Created" value="2024-08-28T17:33:38"/>
+    </dates>
+    <author>Griffin Shelor</author>
+    <creation>2024-08-28T17:33:38</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <mapViewDocks3D/>
+  <Bookmarks/>
+  <Sensors/>
+  <ProjectViewSettings rotation="0" UseProjectScales="0">
+    <Scales/>
+    <DefaultViewExtent xmax="378602.78641914750915021" ymin="4336803.48914804775267839" xmin="166165.81455688911955804" ymax="4433135.83894272986799479">
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>PROJCRS["NAD83 / UTM zone 11N",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["UTM zone 11N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-117,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["North America - between 120°W and 114°W - onshore and offshore. Canada - Alberta; British Columbia; Northwest Territories; Nunavut. United States (USA) - California; Idaho; Nevada, Oregon; Washington."],BBOX[30.88,-120,83.5,-114]],ID["EPSG",26911]]</wkt>
+        <proj4>+proj=utm +zone=11 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2288</srsid>
+        <srid>26911</srid>
+        <authid>EPSG:26911</authid>
+        <description>NAD83 / UTM zone 11N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </DefaultViewExtent>
+  </ProjectViewSettings>
+  <ProjectStyleSettings projectStyleId="attachment:///NeGiEP_styles.db" RandomizeDefaultSymbolColor="1" DefaultSymbolOpacity="1">
+    <databases/>
+  </ProjectStyleSettings>
+  <ProjectTimeSettings timeStep="1" frameRate="1" timeStepUnit="h" cumulativeTemporalRange="0"/>
+  <ElevationProperties>
+    <terrainProvider type="flat">
+      <TerrainProvider scale="1" offset="0"/>
+    </terrainProvider>
+  </ElevationProperties>
+  <ProjectDisplaySettings CoordinateType="MapCrs" CoordinateAxisOrder="Default">
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option type="invalid" name="decimal_separator"/>
+        <Option type="int" value="6" name="decimals"/>
+        <Option type="int" value="0" name="direction_format"/>
+        <Option type="int" value="0" name="rounding_type"/>
+        <Option type="bool" value="false" name="show_plus"/>
+        <Option type="bool" value="true" name="show_thousand_separator"/>
+        <Option type="bool" value="false" name="show_trailing_zeros"/>
+        <Option type="invalid" name="thousand_separator"/>
+      </Option>
+    </BearingFormat>
+    <GeographicCoordinateFormat id="geographiccoordinate">
+      <Option type="Map">
+        <Option type="QString" value="DecimalDegrees" name="angle_format"/>
+        <Option type="invalid" name="decimal_separator"/>
+        <Option type="int" value="6" name="decimals"/>
+        <Option type="int" value="0" name="rounding_type"/>
+        <Option type="bool" value="false" name="show_leading_degree_zeros"/>
+        <Option type="bool" value="false" name="show_leading_zeros"/>
+        <Option type="bool" value="false" name="show_plus"/>
+        <Option type="bool" value="false" name="show_suffix"/>
+        <Option type="bool" value="true" name="show_thousand_separator"/>
+        <Option type="bool" value="false" name="show_trailing_zeros"/>
+        <Option type="invalid" name="thousand_separator"/>
+      </Option>
+    </GeographicCoordinateFormat>
+    <CoordinateCustomCrs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </CoordinateCustomCrs>
+  </ProjectDisplaySettings>
+  <ProjectGpsSettings autoCommitFeatures="0" autoAddTrackVertices="0" destinationLayerName="Reprojected" destinationLayerSource="MultiPolygon?crs=EPSG:26911&amp;field=GISJOIN:string(15,0)&amp;field=STATEFP:string(2,0)&amp;field=COUNTYFP:string(3,0)&amp;field=GEOID:string(12,0)&amp;field=YEAR:string(254,0)&amp;field=STUSAB:string(254,0)&amp;field=COUNTY:string(254,0)&amp;field=TRACTA:string(254,0)&amp;field=BLKGRPA:string(254,0)&amp;field=GEOID_2:string(254,0)&amp;field=NAME_E:string(254,0)&amp;field=ALWTE010:string(254,0)&amp;field=ALWTE011:string(254,0)&amp;field=ALWTE012:string(254,0)&amp;field=TotalPop:integer(9,0)&amp;field=PctMale:double(10,3)&amp;field=PctFemale:double(10,3)&amp;field=Pct18_35:double(10,3)&amp;field=PctHisp:double(10,3)&amp;field=PctDrvAlon:double(10,3)&amp;field=PctComm20:double(10,3)&amp;field=PctComm45:double(10,3)&amp;field=PctDegree:double(10,3)&amp;field=PctEngOnly:double(10,3)&amp;field=Pct100k:double(10,3)&amp;field=PctEmploy:double(10,3)&amp;field=PctOcc:double(10,3)&amp;field=PctSFH:double(10,3)&amp;field=Pct2PlVeh:double(10,3)&amp;field=PctHiJobs:double(10,3)&amp;field=PctLowJobs:double(10,3)&amp;field=PctJbs3054:double(10,3)&amp;field=LODES_Join:string(15,0)&amp;field=Jobs:string(254,0)&amp;field=Young:string(254,0)&amp;field=MidAge:string(254,0)&amp;field=Older:string(254,0)&amp;field=Low:string(254,0)&amp;field=Middle:string(254,0)&amp;field=High:string(254,0)&amp;field=OBJECTID:double(20,0)&amp;field=GEOID10:string(12,0)&amp;field=CSA:string(254,0)&amp;field=CSA_Name:string(254,0)&amp;field=CBSA:double(23,15)&amp;field=CBSA_Name:string(254,0)&amp;field=CBSA_EMP:double(23,15)&amp;field=CBSA_POP:double(23,15)&amp;field=CBSA_WRK:double(23,15)&amp;field=E5_OFF10:double(23,15)&amp;field=D1B:double(23,15)&amp;field=D1C:double(23,15)&amp;field=D2A_JPHH:double(23,15)&amp;field=D2C_TRPMX1:double(23,15)&amp;field=D3a:double(23,15)&amp;field=D3aao:double(23,15)&amp;field=D3amm:double(23,15)&amp;field=D4a:double(23,15)&amp;field=D4b025:double(23,15)&amp;field=D5ar:double(23,15)&amp;field=D5br:double(23,15)&amp;field=PctWhtAln:double(10,3)&amp;uid={67d687c2-af63-48d3-ad5f-4757b260ca92}" destinationFollowsActiveLayer="1" destinationLayerProvider="memory" destinationLayer="Reprojected_db12306a_7cd6_471c_86b4_800c993c95bf">
+    <timeStampFields/>
+  </ProjectGpsSettings>
+</qgis>
