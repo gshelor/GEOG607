@@ -375,79 +375,79 @@ writeRaster(RF1_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Dat
 
 set.seed(802)
 RF2_PredictionMap <- terra::predict(Prediction_Rasters, RFModel2)
-writeRaster(RF2_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel2_LogSWE.tif", overwrite = TRUE)
 RF2_PredictionMap_exp <- exp(RF2_PredictionMap)
+writeRaster(RF2_PredictionMap_exp, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel2_LogSWE.tif", overwrite = TRUE)
 # plot(RF2_PredictionMap_exp, main = "Random Forest Model of log(peak_SWE)")
 
 set.seed(802)
 RF3_PredictionMap <- terra::predict(Prediction_Rasters, RFModel3)
-# writeRaster(RF1_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel1_SWE.tif")
+writeRaster(RF3_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel3_SWE.tif")
 # plot(RF3_PredictionMap, main = "RF Model of Peak SWE, Model 3")
 
 set.seed(802)
 RF4_PredictionMap <- terra::predict(Prediction_Rasters, RFModel4)
-# writeRaster(RF2_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel2_LogSWE.tif")
 RF4_PredictionMap_exp <- exp(RF4_PredictionMap)
+writeRaster(RF4_PredictionMap_exp, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel4_LogSWE.tif")
 # plot(RF4_PredictionMap_exp, main = "Random Forest Model of log(peak_SWE), Model 4")
 
 set.seed(802)
 RF5_PredictionMap <- terra::predict(Prediction_Rasters, RFModel5)
-# writeRaster(RF1_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel1_SWE.tif")
+writeRaster(RF5_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel5_SWE.tif")
 # plot(RF5_PredictionMap, main = "RF Model of Peak SWE, Model 5")
 
 set.seed(802)
 RF6_PredictionMap <- terra::predict(Prediction_Rasters, RFModel6)
-# writeRaster(RF2_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel2_LogSWE.tif")
 RF6_PredictionMap_exp <- exp(RF6_PredictionMap)
+writeRaster(RF6_PredictionMap_exp, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel6_LogSWE.tif")
 # plot(RF6_PredictionMap_exp, main = "Random Forest Model of log(peak_SWE), Model 6")
 
 set.seed(802)
 RF7_PredictionMap <- terra::predict(Prediction_Rasters, RFModel7)
-# writeRaster(RF1_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel1_SWE.tif")
+writeRaster(RF7_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel7_SWE.tif")
 # plot(RF7_PredictionMap, main = "RF Model of Peak SWE, Model 7")
 
 set.seed(802)
 RF8_PredictionMap <- terra::predict(Prediction_Rasters, RFModel8)
-# writeRaster(RF2_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel2_LogSWE.tif")
 RF8_PredictionMap_exp <- exp(RF8_PredictionMap)
+writeRaster(RF8_PredictionMap_exp, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel8_LogSWE.tif")
 # plot(RF8_PredictionMap_exp, main = "Random Forest Model of log(peak_SWE), Model 8")
 
 set.seed(802)
 RF9_PredictionMap <- terra::predict(Prediction_Rasters, RFModel9)
-# writeRaster(RF1_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel1_SWE.tif")
+writeRaster(RF9_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel9_SWE.tif")
 # plot(RF9_PredictionMap, main = "RF Model of Peak SWE, Model 9")
 
 set.seed(802)
 RF10_PredictionMap <- terra::predict(Prediction_Rasters, RFModel10)
-# writeRaster(RF2_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel2_LogSWE.tif")
 RF10_PredictionMap_exp <- exp(RF10_PredictionMap)
+writeRaster(RF10_PredictionMap_exp, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel10_LogSWE.tif")
 # plot(RF10_PredictionMap_exp, main = "Random Forest Model of log(peak_SWE), Model 10")
 
 set.seed(802)
 RF11_PredictionMap <- terra::predict(Prediction_Rasters, RFModel11)
-# writeRaster(RF2_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel2_LogSWE.tif")
+writeRaster(RF11_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel11.tif")
 # plot(RF10_PredictionMap_exp, main = "Random Forest Model of log(peak_SWE), Model 10")
 
 set.seed(802)
 RF12_PredictionMap <- terra::predict(Prediction_Rasters, RFModel12)
-# writeRaster(RF2_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel2_LogSWE.tif")
 RF12_PredictionMap_exp <- exp(RF12_PredictionMap)
+writeRaster(RF12_PredictionMap_exp, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel12_LogSWE.tif")
 # plot(RF10_PredictionMap_exp, main = "Random Forest Model of log(peak_SWE), Model 10")
 
 set.seed(802)
 RF13_PredictionMap <- terra::predict(Prediction_Rasters, RFModel13)
-# writeRaster(RF2_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel2_LogSWE.tif")
+writeRaster(RF13_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel13.tif")
 # plot(RF10_PredictionMap_exp, main = "Random Forest Model of log(peak_SWE), Model 10")
 
 set.seed(802)
 RF14_PredictionMap <- terra::predict(Prediction_Rasters, RFModel14)
-# writeRaster(RF2_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel2_LogSWE.tif")
 RF14_PredictionMap_exp <- exp(RF14_PredictionMap)
+writeRaster(RF14_PredictionMap_exp, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel14_LogSWE.tif")
 # plot(RF10_PredictionMap_exp, main = "Random Forest Model of log(peak_SWE), Model 10")
 
 set.seed(802)
 RF15_PredictionMap <- terra::predict(Prediction_Rasters, RFModel15)
-writeRaster(RF15_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel15_LogSWE.tif")
+writeRaster(RF15_PredictionMap, "/Users/gshelor/Documents/GEOG607Data/Project_Data/Outputs/RFModel15.tif")
 # plot(RF10_PredictionMap_exp, main = "Random Forest Model of log(peak_SWE), Model 10")
 
 set.seed(802)
@@ -463,7 +463,7 @@ RFModel1_plot <- ggplot() +
   geom_spatraster(data = RF1_PredictionMap) +
   scale_fill_princess_c(palette = "snow", direction = 1, name = "Peak SWE (mm)") +
   geom_sf(data = CONUS_AOI, fill = NA, color = "black") +
-  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Raw SWE, 0 Zero points") +
+  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Raw SWE, 0 Zero Points") +
   ggspatial::annotation_scale(location = "br") +
   ggspatial::annotation_north_arrow(location = "bl") +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
@@ -476,7 +476,7 @@ RFModel2_plot <- ggplot() +
   geom_spatraster(data = RF2_PredictionMap_exp) +
   scale_fill_princess_c(palette = "snow", direction = 1, name = "Peak SWE (mm)") +
   geom_sf(data = CONUS_AOI, fill = NA, color = "black") +
-  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Log SWE, 0 Zero points") +
+  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Log SWE, 0 Zero Points") +
   ggspatial::annotation_scale(location = "br") +
   ggspatial::annotation_north_arrow(location = "bl") +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
@@ -489,7 +489,7 @@ RFModel3_plot <- ggplot() +
   geom_spatraster(data = RF3_PredictionMap) +
   scale_fill_princess_c(palette = "snow", direction = 1, name = "Peak SWE (mm)") +
   geom_sf(data = CONUS_AOI, fill = NA, color = "black") +
-  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Raw SWE, 10 zero points") +
+  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Raw SWE, 10 Zero Points") +
   ggspatial::annotation_scale(location = "br") +
   ggspatial::annotation_north_arrow(location = "bl") +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
@@ -502,7 +502,7 @@ RFModel4_plot <- ggplot() +
   geom_spatraster(data = RF4_PredictionMap_exp) +
   scale_fill_princess_c(palette = "snow", direction = 1, name = "Peak SWE (mm)") +
   geom_sf(data = CONUS_AOI, fill = NA, color = "black") +
-  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Log SWE, 10 Zero points") +
+  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Log SWE, 10 Zero Points") +
   ggspatial::annotation_scale(location = "br") +
   ggspatial::annotation_north_arrow(location = "bl") +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
@@ -515,7 +515,7 @@ RFModel5_plot <- ggplot() +
   geom_spatraster(data = RF5_PredictionMap) +
   scale_fill_princess_c(palette = "snow", direction = 1, name = "Peak SWE (mm)") +
   geom_sf(data = CONUS_AOI, fill = NA, color = "black") +
-  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Raw SWE 25 Zero pts") +
+  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Raw SWE, 25 Zero Points") +
   ggspatial::annotation_scale(location = "br") +
   ggspatial::annotation_north_arrow(location = "bl") +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
@@ -528,7 +528,7 @@ RFModel6_plot <- ggplot() +
   geom_spatraster(data = RF6_PredictionMap_exp) +
   scale_fill_princess_c(palette = "snow", direction = 1, name = "Peak SWE (mm)") +
   geom_sf(data = CONUS_AOI, fill = NA, color = "black") +
-  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Model 6 log swe 25 Zero pts") +
+  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Log SWE, 25 Zero Points") +
   ggspatial::annotation_scale(location = "br") +
   ggspatial::annotation_north_arrow(location = "bl") +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
@@ -541,7 +541,7 @@ RFModel7_plot <- ggplot() +
   geom_spatraster(data = RF7_PredictionMap) +
   scale_fill_princess_c(palette = "snow", direction = 1, name = "Peak SWE (mm)") +
   geom_sf(data = CONUS_AOI, fill = NA, color = "black") +
-  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Model 7, 50 Zero points") +
+  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Raw SWE, 50 Zero Points") +
   ggspatial::annotation_scale(location = "br") +
   ggspatial::annotation_north_arrow(location = "bl") +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
@@ -554,7 +554,7 @@ RFModel8_plot <- ggplot() +
   geom_spatraster(data = RF8_PredictionMap_exp) +
   scale_fill_princess_c(palette = "snow", direction = 1, name = "Peak SWE (mm)") +
   geom_sf(data = CONUS_AOI, fill = NA, color = "black") +
-  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Model 8 (log) 50 zero points") +
+  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Log SWE, 50 Zero Points") +
   ggspatial::annotation_scale(location = "br") +
   ggspatial::annotation_north_arrow(location = "bl") +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
@@ -567,7 +567,7 @@ RFModel9_plot <- ggplot() +
   geom_spatraster(data = RF9_PredictionMap) +
   scale_fill_princess_c(palette = "snow", direction = 1, name = "Peak SWE (mm)") +
   geom_sf(data = CONUS_AOI, fill = NA, color = "black") +
-  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Model 9, 100 Zero points") +
+  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Raw SWE, 100 Zero Points") +
   ggspatial::annotation_scale(location = "br") +
   ggspatial::annotation_north_arrow(location = "bl") +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
@@ -580,7 +580,7 @@ RFModel10_plot <- ggplot() +
   geom_spatraster(data = RF10_PredictionMap_exp) +
   scale_fill_princess_c(palette = "snow", direction = 1, name = "Peak SWE (mm)") +
   geom_sf(data = CONUS_AOI, fill = NA, color = "black") +
-  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Model 10, log(peak_swe), 100 Zero Points") +
+  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Log SWE, 100 Zero Points") +
   ggspatial::annotation_scale(location = "br") +
   ggspatial::annotation_north_arrow(location = "bl") +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
@@ -594,7 +594,7 @@ RFModel11_plot <- ggplot() +
   geom_spatraster(data = RF11_PredictionMap) +
   scale_fill_princess_c(palette = "snow", direction = 1, name = "Peak SWE (mm)") +
   geom_sf(data = CONUS_AOI, fill = NA, color = "black") +
-  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Model 11, 150 Zero points") +
+  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Raw SWE, 150 Zero Points") +
   ggspatial::annotation_scale(location = "br") +
   ggspatial::annotation_north_arrow(location = "bl") +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
@@ -607,7 +607,7 @@ RFModel12_plot <- ggplot() +
   geom_spatraster(data = RF12_PredictionMap_exp) +
   scale_fill_princess_c(palette = "snow", direction = 1, name = "Peak SWE (mm)") +
   geom_sf(data = CONUS_AOI, fill = NA, color = "black") +
-  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Model 12, log(peak_swe), 150 Zero Points") +
+  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Log SWE, 150 Zero Points") +
   ggspatial::annotation_scale(location = "br") +
   ggspatial::annotation_north_arrow(location = "bl") +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
@@ -621,7 +621,7 @@ RFModel13_plot <- ggplot() +
   geom_spatraster(data = RF13_PredictionMap) +
   scale_fill_princess_c(palette = "snow", direction = 1, name = "Peak SWE (mm)") +
   geom_sf(data = CONUS_AOI, fill = NA, color = "black") +
-  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Model 13, 200 Zero points") +
+  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Raw SWE, 200 Zero Points") +
   ggspatial::annotation_scale(location = "br") +
   ggspatial::annotation_north_arrow(location = "bl") +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
@@ -634,7 +634,7 @@ RFModel14_plot <- ggplot() +
   geom_spatraster(data = RF14_PredictionMap_exp) +
   scale_fill_princess_c(palette = "snow", direction = 1, name = "Peak SWE (mm)") +
   geom_sf(data = CONUS_AOI, fill = NA, color = "black") +
-  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Model 14, log(peak_swe), 200 Zero Points") +
+  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Log SWE, 200 Zero Points") +
   ggspatial::annotation_scale(location = "br") +
   ggspatial::annotation_north_arrow(location = "bl") +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
@@ -648,7 +648,7 @@ RFModel15_plot <- ggplot() +
   geom_spatraster(data = RF15_PredictionMap) +
   scale_fill_princess_c(palette = "snow", direction = 1, name = "Peak SWE (mm)") +
   geom_sf(data = CONUS_AOI, fill = NA, color = "black") +
-  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Model 15, 250 Zero points") +
+  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Raw SWE, 250 Zero Points") +
   ggspatial::annotation_scale(location = "br") +
   ggspatial::annotation_north_arrow(location = "bl") +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
@@ -661,7 +661,7 @@ RFModel16_plot <- ggplot() +
   geom_spatraster(data = RF16_PredictionMap_exp) +
   scale_fill_princess_c(palette = "snow", direction = 1, name = "Peak SWE (mm)") +
   geom_sf(data = CONUS_AOI, fill = NA, color = "black") +
-  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Model 16, log(peak_swe), 250 Zero Points") +
+  ggtitle(label = "Predicted Peak SWE for WY 2010", subtitle = "Log SWE, 250 Zero Points") +
   ggspatial::annotation_scale(location = "br") +
   ggspatial::annotation_north_arrow(location = "bl") +
   theme(plot.title = element_text(hjust = 0.5), plot.subtitle = element_text(hjust = 0.5))
